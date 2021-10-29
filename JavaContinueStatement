@@ -1,0 +1,39 @@
+[continue statement in java](https://www.flowerbrackets.com/continue-statement-java/)
+
+When continue statement is encountered inside a loop then control jumps to the beginning of the loop for next iteration instead of executing 
+remaining or following statements of current iteration.
+
+Syntax
+
+continue;
+
+continue statement inside for loop
+
+import java.util.*;
+public class ContinueJavaExample 
+{
+   public static void main(String[] args) 
+   {
+      for(int a = 1; a <= 10; a++)
+      {
+         if(a == 5)
+         {
+            continue;
+         }
+         System.out.println(a + " ");
+      }
+   }
+}
+
+
+Output:
+
+1
+2
+3
+4
+6
+7
+8
+9
+10
