@@ -1,0 +1,28 @@
+[Garbage collection in java](https://www.flowerbrackets.com/garbage-collection-in-java/)
+
+Let’s learn garbage collection in java.
+
+Garbage collection means destroying or de-allocating unused objects in memory. Objects which are not used or has no references can be reclaimed.
+
+How it works?
+
+Before java, most popular programming language was either C or C++. So if you know these languages you would know that you are supposed to manage your own memory in 
+those languages.
+
+For example, in C you have methods like calloc(), malloc() and realloc() that would allow buffer memories for you.
+
+You have to specify how much memory you need for your program and say that in those API calls and then can get you a buffer of memory for doing something like creating a 
+linked list node or something like that.
+
+But at the end of your program, at some logical point you are responsible for freeing that memory as well.
+
+So, let’s imagine a big application written in C language that keeps on allocating buffer memories and sometimes it forgets to free the memory and eventually they’ll cause 
+memory leaks and lot of issues in the application.
+
+Also in C++ you would use constructors like new and destructors to release resources.
+
+So those are some things that programmers had to take care or worry about whenever they were implementing these things in languages like C and C++.
+
+But java came with an automatic memory management through a thread called garbage collector and its primary objective is to free heap memory by destroying unreachable objects.
+
+Garbage collector is one of the daemon thread which runs always in the background.
