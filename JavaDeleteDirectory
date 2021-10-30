@@ -1,0 +1,32 @@
+[How to delete a directory in java](https://www.flowerbrackets.com/how-to-delete-a-directory-in-java/)
+
+Let’s learn how to delete a directory in java.
+
+Let’s see how to delete a directory using recursion or recursively.
+
+import java.io.File;
+import java.io.IOException;
+public class DeleteDirectoryExample
+{
+   public static void main(String[] args) throws IOException 
+   {
+      String strPath = "B:\\HelloWorld";
+      File fl = new File(strPath);
+      deleteDirectoryRecursively(fl);
+      // deleting main folder
+      fl.delete();
+   }
+   public static void deleteDirectoryRecursively(File fl)
+   {
+      for(File subfile : fl.listFiles())
+      {
+         // recursively calling function to empty sub folder
+         if(subfile.isDirectory())
+         {
+            deleteDirectoryRecursively(subfile);
+         }
+         // deleting files and emptying sub folders
+         subfile.delete();
+      }
+   }
+}
