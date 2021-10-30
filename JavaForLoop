@@ -1,0 +1,36 @@
+[for loop in java](https://www.flowerbrackets.com/for-loop-in-java/)
+
+Let’s learn for loop in java.
+
+for loop is used to iterate a block of statements multiple times. Use for loop if you know the number of iteration is fixed.
+
+Syntax
+
+for(initialization; condition; increment/decrement)
+{
+   statement(s).....
+}
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+java for loop example
+
+public class ForLoop
+{
+   public static void main(String[] args)
+   {
+      for(int x = 1; x <= 5; x++)
+      {
+         System.out.println(x);
+      }
+   }
+}
+
+
+Output:
+
+1
+2
+3
+4
+5
