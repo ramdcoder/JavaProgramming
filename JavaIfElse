@@ -1,0 +1,96 @@
+[if else in java](https://www.flowerbrackets.com/if-else-java/)
+
+if else statement java executes a block of code where; statements inside “if” executes if condition is true else statements inside “else” will execute.
+
+Here’s the syntax
+
+if(condition)
+{
+   // if condition is true;
+}
+else
+{
+   // if condition is false;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+nested if else
+
+Nested if else means one under the other. That is you can write one if else statement inside another if else statement.
+
+public class NestedIfElse
+{
+   public static void main(String[] args)
+   {
+      Integer num1 = 2, num2 = 8, num3 = 10, largest;
+      if(num1 >= num2)
+      {
+         if(num1 >= num3)
+         {
+            largest = num1;
+         }
+         else
+         {
+            largest = num3;
+         }
+      }
+      else
+      {
+         if(num2 >= num3)
+         {
+            largest = num2;
+         }
+         else
+         {
+            largest = num3;
+         }
+      }
+      System.out.println("Largest number: " + largest);
+   }
+}
+
+
+Output:
+
+Largest number: 10
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+else if statement
+
+else if statement is used to specify new condition if first condition is false.
+
+Syntax:
+
+if(condition1)
+{
+   // execute if condition1 is true
+}
+else if (condition2)
+{
+   // execute if condition2 is true
+}
+else if (condition3)
+{
+   // execute if condition3 is true
+}
+else
+{
+   // execute if conditions 1, 2 and 3 becomes false
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+if statement java
+
+if statement executes a set of statements if condition is true.
+
+Syntax:
+
+if(condition)
+{
+   // if condition is true;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
