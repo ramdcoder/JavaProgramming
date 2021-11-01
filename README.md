@@ -8,3 +8,5 @@ Core java and OOPS concept
 [for loop in java](https://www.flowerbrackets.com/for-loop-in-java/)
 
 [Garbage collection in java](https://www.flowerbrackets.com/garbage-collection-in-java/)
+
+[if else in java](https://www.flowerbrackets.com/if-else-java/)
