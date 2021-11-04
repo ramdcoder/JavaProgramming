@@ -18,3 +18,5 @@ Core java and OOPS concept
 [Java compare two strings](https://www.flowerbrackets.com/java-compare-two-strings/)
 
 [String concatenation in java](https://www.flowerbrackets.com/string-concatenation-java/)
+
+[String length() method in java](https://www.flowerbrackets.com/string-length-method-java/)
