@@ -10,3 +10,5 @@ Core java and OOPS concept
 [Garbage collection in java](https://www.flowerbrackets.com/garbage-collection-in-java/)
 
 [if else in java](https://www.flowerbrackets.com/if-else-java/)
+
+[Sparse matrix and its representations in java](https://www.flowerbrackets.com/sparse-matrix-and-its-representations-in-java/)
