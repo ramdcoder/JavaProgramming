@@ -1,0 +1,30 @@
+[String length() method in java](https://www.flowerbrackets.com/string-length-method-java/)
+
+String length() method in java
+
+length function in java returns length of this string. The length of the sequence of characters represented by this object.
+
+String length() method is specified by CharSequence interface. The length is equal to the number of Unicode code units in the string.
+
+Syntax
+
+public int length()
+
+Let’s see to get length of string java. Here’s String length() method example.
+
+public class StringLengthJava
+{
+   public static void main(String[] args)
+   {
+      String str1 = "flowerbrackets";
+      String str2 = "helloworld";
+      System.out.println("string length : " + str1.length());
+      System.out.println("string length : " + str2.length());
+   }
+}
+
+
+Output:
+
+string length : 14
+string length : 10
