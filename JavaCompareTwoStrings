@@ -1,0 +1,28 @@
+[Java compare two strings](https://www.flowerbrackets.com/java-compare-two-strings/)
+
+Java compare two strings
+
+In java, String is immutable. Meaning, once created String object can’t be changed, they are constant.
+
+NOTE: Do not use == operator for comparing Strings
+
+Because basically equal() method and == operator compare objects to check equality. Here “==” operator is used for reference comparison and .equals() method for content comparison.
+
+== operator in java checks if objects point to same memory location. While .equals() method compares both object values is equal or not.
+ 
+public class EqualOperatorDemo
+{
+   public static void main(String[] args)
+   {
+      String str1 = new String("helloworld");
+      String str2 = new String("helloworld");
+      System.out.println(str1 == str2);
+      System.out.println(str1.equals(str2));
+   }
+}
+
+
+Output:
+
+false
+true
