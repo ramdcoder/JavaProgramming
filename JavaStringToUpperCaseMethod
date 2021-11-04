@@ -1,0 +1,50 @@
+[String toUpperCase() method in java](https://www.flowerbrackets.com/string-touppercase-method-java/)
+
+String toUpperCase() method in java
+
+String toUpperCase method or touppercase java have two variants.
+
+public String toUpperCase()
+public String toUpperCase(Locale locale)
+
+java string touppercase converts a string to uppercase letters. Here’s String toUpperCase() method example or java program to convert string into uppercase.
+
+public class StringToUppercaseDemo
+{
+   public static void main(String[] args)
+   {
+      String str = "hello world";
+      String strUpper = str.toUpperCase();
+      System.out.println(strUpper);
+   }
+}
+
+
+Output:
+
+HELLO WORLD
+
+Whereas toUpperCase(Locale loc) converts all the characters to uppercase using the rules of the given Locale.
+
+public String toUpperCase(Locale locale)
+
+Now let’s see java String toUpperCase(Locale loc) method example.
+
+import java.util.Locale;
+public class ToUppercaseLocaleDemo
+{
+   public static void main(String[] args)
+   {
+      String str = "i love java";
+      String strTurkish = str.toUpperCase(Locale.forLanguageTag("tr")); 
+      String strEnglish = str.toUpperCase(Locale.forLanguageTag("en")); 
+      System.out.println(strTurkish); 
+      System.out.println(strEnglish);
+   }
+}
+
+
+Output:
+
+? LOVE JAVA
+I LOVE JAVA
