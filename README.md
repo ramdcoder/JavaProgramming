@@ -14,3 +14,5 @@ Core java and OOPS concept
 [Sparse matrix and its representations in java](https://www.flowerbrackets.com/sparse-matrix-and-its-representations-in-java/)
 
 [String toUpperCase() method in java](https://www.flowerbrackets.com/string-touppercase-method-java/)
+
+[Java compare two strings](https://www.flowerbrackets.com/java-compare-two-strings/)
