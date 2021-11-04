@@ -12,3 +12,5 @@ Core java and OOPS concept
 [if else in java](https://www.flowerbrackets.com/if-else-java/)
 
 [Sparse matrix and its representations in java](https://www.flowerbrackets.com/sparse-matrix-and-its-representations-in-java/)
+
+[String toUpperCase() method in java](https://www.flowerbrackets.com/string-touppercase-method-java/)
