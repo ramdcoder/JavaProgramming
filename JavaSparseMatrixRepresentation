@@ -1,0 +1,15 @@
+[Sparse matrix and its representations in java](https://www.flowerbrackets.com/sparse-matrix-and-its-representations-in-java/)
+
+Sparse matrix and its representations in java
+
+Sparse matrix is a two dimensional array also known as a sparse array. In this matrix majority of elements are zero and very few are non zero elements.
+
+For example, consider two rows and three columns matrix. In this matrix there are only two values and the remaining are blank. This vacant place are filled with zero.
+
+Why we are using sparse matrix?
+
+Sparse matrix reduces the scanning time and how exactly it reduces the scanning time is, if there is m x n matrix where m = 50 and n is also = 50.
+
+This means, for searching all the elements we require 2500 times scanning to find the value.
+
+So instead of scanning 2500 times you can use a sparse matrix. In sparse matrix you can directly get the values that exists in the matrix.
