@@ -42,3 +42,5 @@ Core java and OOPS concept
 [Preface to java virtual machine and architecture](https://www.flowerbrackets.com/preface-to-java-virtual-machine-and-architecture/)
 
 [Variables in java](https://www.flowerbrackets.com/variables-in-java/)
+
+[Operators in java](https://www.flowerbrackets.com/operators-in-java/)
