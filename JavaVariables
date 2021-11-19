@@ -1,0 +1,15 @@
+Variables in java
+
+[Variables in java](https://www.flowerbrackets.com/variables-in-java/)
+
+Variable is a container which holds value in a java program. It is a name of memory location.
+
+Syntax:
+
+datatype variableName = value;
+
+To declare a variable, first write data type; Data type can be integer, float, double, long etc. followed by variable name then its value. Like this,
+
+int number = 7; // here number is variable
+
+For more on variables in java click here - https://www.flowerbrackets.com/variables-in-java/
