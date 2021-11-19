@@ -1,0 +1,37 @@
+Java String toCharArray() Method
+
+[Java String toCharArray() method](https://www.flowerbrackets.com/java-string-tochararray-method/)
+
+Java String toCharArray() method converts given string into new character array.
+
+Let’s see tochararray java method example or string tochararray java.
+
+public class StringToCharArrayDemo
+{
+   public static void main(String[] args)
+   {
+      String strInput = new String("HelloWorld");
+      // using toCharArray() method java
+      char[] chArray = strInput.toCharArray();
+      System.out.println("Character array: ");
+      for(char ch : chArray)
+      {
+         System.out.println(ch);
+      }
+   }
+}
+
+
+Output:
+
+Character array:
+H
+e
+l
+l
+o
+W
+o
+r
+l
+d
