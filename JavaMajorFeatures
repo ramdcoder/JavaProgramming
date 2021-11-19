@@ -1,0 +1,22 @@
+Major features of java
+
+[Major features of java](https://www.flowerbrackets.com/major-features-of-java/)
+
+Simple
+
+Java is concise, easy to write, understand and learn. Java is designed based on C++ so that programmers could learn it easily. 
+It eliminates several language features available in C and C++.
+
+For example – java has removed go-to statements, header files structures, operator overloading and pointers.
+
+Secure
+
+There is no explicit pointer in java. It provides secure way to access web applications and secure means of creating Internet application.
+
+Java is designed to be secure in a networked environment. Classloader a part of JRE loads classes into JVM dynamically.
+
+Classloader separates package for classes of local file from imported network sources, thereby adding security.
+
+It uses bytecode verification to ensure that code loaded over the network does not violate java security constraints.
+
+For more click here - https://www.flowerbrackets.com/major-features-of-java/
