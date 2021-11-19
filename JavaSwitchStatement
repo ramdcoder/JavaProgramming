@@ -1,0 +1,31 @@
+Switch statement in java
+
+[Switch statement in java](https://www.flowerbrackets.com/switch-statement-in-java/)
+
+Switch statement is used to choose one of the few blocks of code to get some output. 
+Here in switch statement switch expression is evaluated once and compared with each “case” value.
+
+syntax for switch statement in java
+
+switch(expression)
+{
+   case 1 value :
+   // code goes here
+   break;
+
+   case 2 value :
+   // code goes here
+   break;
+
+   case 3 value :
+   // code goes here
+   break;
+   .
+   .
+   .
+   .
+   
+   default: // optional
+   // default code goes here
+}
+
