@@ -1,0 +1,37 @@
+Java catch multiple exceptions and rethrow exception
+
+[Java catch multiple exceptions and rethrow exception](https://www.flowerbrackets.com/java-catch-multiple-exceptions-rethrow-exception/)
+
+Before java 7 a programmer would catch multiple exceptions one by one like this,
+
+try
+{
+   // code that throw exceptions 1 and 3
+}
+catch(SQLException e)
+{
+   logger.log(e);
+}
+catch(IOException e)
+{
+   logger.log(e);
+}
+catch(Exception e)
+{
+   logger.severe(e);
+}
+
+In Java 7 catch block is upgraded. We can combine two catch blocks into one using multi catch syntax.
+
+try
+{
+   // code that throw exceptions 1 and 3
+}
+catch(SQLException | IOException e)
+{
+   logger.log(e);
+}
+catch(Exception e)
+{
+   logger.severe(e);
+}
