@@ -20,3 +20,23 @@ Core java and OOPS concept
 [String concatenation in java](https://www.flowerbrackets.com/string-concatenation-java/)
 
 [String length() method in java](https://www.flowerbrackets.com/string-length-method-java/)
+
+[Java remove character from string](https://www.flowerbrackets.com/java-remove-character-from-string/)
+
+[Reverse a string in java](https://www.flowerbrackets.com/reverse-string-in-java/)
+
+[Java string trim() method](https://www.flowerbrackets.com/java-string-trim-method/)
+
+[Java String toCharArray() method](https://www.flowerbrackets.com/java-string-tochararray-method/)
+
+[Java program to swap two numbers](https://www.flowerbrackets.com/java-program-to-swap-two-numbers/)
+
+[Switch statement in java](https://www.flowerbrackets.com/switch-statement-in-java/)
+
+[Java catch multiple exceptions and rethrow exception](https://www.flowerbrackets.com/java-catch-multiple-exceptions-rethrow-exception/)
+
+[Java Overview](https://www.flowerbrackets.com/java-overview/)
+
+[Major features of java](https://www.flowerbrackets.com/major-features-of-java/)
+
+[Preface to java virtual machine and architecture](https://www.flowerbrackets.com/preface-to-java-virtual-machine-and-architecture/)
