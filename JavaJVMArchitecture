@@ -1,0 +1,11 @@
+Preface to java virtual machine and architecture
+
+[Preface to java virtual machine and architecture](https://www.flowerbrackets.com/preface-to-java-virtual-machine-and-architecture/)
+
+Every fresher java programmer/developer is aware of Java Virtual Machine which interprets compiled java code known as byte code and excutes it to platform specific machine code.
+
+Java applications are WORA(Write Once Run Anywhere). It is compiled and interpreted. Java compiler complies source code to bytecode.
+
+Then at runtime Java Virtual Machine interprets this bytecode and creates machine code which is executed by machine to run java program.
+
+For more on JVM click here - https://www.flowerbrackets.com/preface-to-java-virtual-machine-and-architecture/
