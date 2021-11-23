@@ -1,0 +1,17 @@
+Classes and objects in java
+
+[Classes and objects in java](https://www.flowerbrackets.com/classes-and-objects-in-java/)
+
+Class is a blueprint. Class is a collection of objects. To create a class in java use keyword ‘class’. For example:
+
+class Animal
+
+Syntax:
+
+access-modifier class ClassName
+{
+   // methods
+   // constructors
+}
+
+For more click here - https://www.flowerbrackets.com/classes-and-objects-in-java/
