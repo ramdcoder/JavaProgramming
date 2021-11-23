@@ -1,0 +1,21 @@
+Nested classes in java
+
+[Nested classes in java](https://www.flowerbrackets.com/nested-classes-in-java/)
+
+A class inside another class is known as nested class (inner class). A nested class can be private.
+
+Syntax:
+
+class A // outer class
+{
+   ......
+   class B // nested class
+   {
+      .....
+   }
+}
+
+Nested classes in java are divided into two, they are –
+
+static nested classes.
+non-static nested classes (inner classes).
