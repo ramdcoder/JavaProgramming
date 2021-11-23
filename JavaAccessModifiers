@@ -1,0 +1,8 @@
+Access modifiers in java
+
+[Access modifiers in java](https://www.flowerbrackets.com/access-modifiers-in-java/)
+
+Access modifiers define the limit or scope of a variable, constructor, class or a method. There are two types of modifiers in java;
+access modifiers and non-access modifiers in java.
+
+There are four types of access modifiers in java; private access modifier, protected access modifier, public access modifier and default access modifier.
