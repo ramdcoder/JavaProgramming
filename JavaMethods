@@ -1,0 +1,24 @@
+Methods in java
+
+[Methods in java](https://www.flowerbrackets.com/methods-in-java/)
+
+A method in java is a group of statements to carry out some operation also known as functions. 
+Method is declared inside a class with method name followed by parentheses ( ). A method executes only when it is called.
+
+We have some predefined methods in java such as sqrt(), pow() System.out.println() etc,. Meanwhile we can also create our own method. Below is syntax and example of a method.
+
+Syntax:
+
+modifier returnType methodName(Parameter List) 
+{
+   // method body
+}
+
+
+In the above java method syntax,
+
+“public” is an access modifier. By declaring public a method can be accessed everywhere.
+“int” is return type to return some value. If it is void, it does not return any value.
+“addTwoNumbers” is method name. As per naming convention a method name should start with a lowercase and if method name is more than a word then every word starting should be of uppercase.
+method body should be enclosed between two curly ({ }) braces.
+addTwoNumbers() method has two parameters ‘a’ and ‘b’. They can be left empty.
