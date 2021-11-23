@@ -1,0 +1,25 @@
+Strings in java
+
+[Strings in java](https://www.flowerbrackets.com/strings-in-java/)
+
+In java, string is an object. It is sequence of character values enclosed by double quotes. java.lang.String class is used to create string object.
+
+For example:
+
+String name = “Sachin”;
+
+String class implements Serializable, Comparable and CharSequence interfaces.
+
+Syntax:
+
+public final class String
+
+NOTE:
+
+String object is immutable.
+
+Below are three classes to create Strings in java.
+
+String class
+StringBuilder class
+StringBuffer class
