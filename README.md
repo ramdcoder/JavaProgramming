@@ -46,3 +46,5 @@ Core java and OOPS concept
 [Operators in java](https://www.flowerbrackets.com/operators-in-java/)
 
 [Classes and objects in java](https://www.flowerbrackets.com/classes-and-objects-in-java/)
+
+[Polymorphism in java](https://www.flowerbrackets.com/polymorphism-in-java/)
