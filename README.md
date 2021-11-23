@@ -54,3 +54,5 @@ Core java and OOPS concept
 [this keyword in java](https://www.flowerbrackets.com/this-keyword-in-java/)
 
 [Access modifiers in java](https://www.flowerbrackets.com/access-modifiers-in-java/)
+
+[Inheritance in java](https://www.flowerbrackets.com/inheritance-in-java/)
