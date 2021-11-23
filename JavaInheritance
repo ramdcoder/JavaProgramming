@@ -1,0 +1,38 @@
+Inheritance in java
+
+[Inheritance in java](https://www.flowerbrackets.com/inheritance-in-java/)
+
+Inheritance is a procedure of acquiring all the properties and behaviour of a parent class (super class) into child class (subclass).
+
+Inheritance represents “IS-A” relationship between super class and subclass. By inheriting we are reusing all the methods, properties and behavior of super class.
+
+Syntax:
+
+class SubClass extends SuperClass
+{
+   // variables and methods
+}
+
+A class in java can be extended by creating new class which can retain the characteristics of the super class or parent class. 
+Keyword “extends” means increasing the functionality of parent class or super class.
+
+Let’s see example for inheritance in java.
+
+// inheritance in java example
+// super class
+class Animal
+{
+   void eat()
+   {
+      System.out.println("Animal is eating.");
+   }
+}
+// subclass
+class Lion extends Animal
+{
+   public static void main(String[] args)
+   {
+      Lion obj = new Lion();
+      obj.eat();
+   }
+}
