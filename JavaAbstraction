@@ -1,0 +1,54 @@
+Abstraction in java
+
+[Abstraction in java](https://www.flowerbrackets.com/abstraction-in-java/)
+
+what is abstraction in java
+
+Abstraction is defined as hiding internal implementation and showing only necessary information. There are two ways to achieve abstraction in java,
+
+through abstract class and
+through interfaces
+
+To create an abstract class and abstract method in java “abstract” keyword is used. “abstract” is a non-access modifier.
+
+Syntax:
+
+// abstract class
+public abstract class Calculator
+{
+   // abstract method
+   public abstract int add(int number1, int number2);
+}
+
+Here’s abstraction with example in java.
+
+// abstract class
+abstract class Addition
+{
+   // abstract methods
+   public abstract int addTwoNumbers(int number1, int number2);
+   public abstract int addFourNumbers(int number1, int number2, int number3, int number4);
+   // non-abstract method
+   public void printValues()
+   {
+      System.out.println("abstract class printValues() method");
+   }
+}
+class AbstractMethodExample extends Addition
+{
+   public int addTwoNumbers(int number1, int number2)
+   {
+      return number1 + number2;
+   }
+   public int addFourNumbers(int number1, int number2, int number3, int number4)
+   {
+      return number1 + number2 + number3 + number4;
+   }
+   public static void main(String[] args)
+   {
+      Addition add = new AbstractMethodExample();
+      System.out.println(add.addTwoNumbers(6, 6));
+      System.out.println(add.addFourNumbers(8, 8, 3, 2));
+      add.printValues();
+   }
+}
