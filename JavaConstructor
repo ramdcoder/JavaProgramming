@@ -1,0 +1,49 @@
+Constructor in java
+
+[Constructor in java](https://www.flowerbrackets.com/constructor-in-java/)
+
+Constructor is a block of code used to initialize objects.
+
+NOTE:
+
+constructor does not have any return type.
+constructor name is same as class name.
+constructor is called when an object of a classs is created.
+access modifiers applicable for constructors are public, private, protected and default.
+constructor gets called when we write “new()” keyword.
+Syntax:
+
+class DemoClass
+{
+   // constructor name is same as class name
+   DemoClass()
+   {
+      ....
+   }
+}
+// calls DemoClass() constructor
+DemoClass obj = new DemoClass();
+
+Example
+
+public class ConstructorDemo
+{
+   int a; // class attribute
+   // create constructor for class ConstructorDemo
+   ConstructorDemo()
+   {
+      a = 26; // initial value for class attribute 'a'
+   }
+   public static void main(String[] args)
+   {
+      // creating object for ConstructorDemo class
+      // here we're calling constructor ConstructorDemo()
+      ConstructorDemo obj = new ConstructorDemo();
+      System.out.println(obj.a);
+   }
+}
+
+
+Output:
+
+26
