@@ -1,0 +1,50 @@
+Polymorphism in java
+
+[Polymorphism in java](https://www.flowerbrackets.com/polymorphism-in-java/)
+
+Polymorphism literally means many forms. Polymorphism is the ability of a method to perform different tasks. 
+It can be achieved through method overloading and method overriding.
+
+For example: Wood has many forms table, chair, dinning table etc.
+
+Polymorphism in java example
+
+class Shapes
+{
+   public void sides()
+   {
+      System.out.println("A shape can have many sides.");
+   }
+}
+class Square extends Shapes
+{
+   public void sides()
+   {
+      System.out.println("square has four sides.");
+   }
+}
+class Triangle extends Shapes
+{
+   public void sides()
+   {
+      System.out.println("triangle has three sides.");
+   }
+}
+class PolymorphismExample
+{
+   public static void main(String[] args)
+   {
+      Square obj1 = new Square();
+      obj1.sides();
+      Triangle obj2 = new Triangle();
+      obj2.sides();
+   }
+}
+
+
+Output:
+
+square has four sides.
+triangle has three sides.
+
+For more on polymorphism in java click here - https://www.flowerbrackets.com/polymorphism-in-java/
