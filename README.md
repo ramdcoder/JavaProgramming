@@ -64,3 +64,5 @@ Core java and OOPS concept
 [Strings in java](https://www.flowerbrackets.com/strings-in-java/)
 
 [Methods in java](https://www.flowerbrackets.com/methods-in-java/)
+
+[while loop in java](https://www.flowerbrackets.com/while-loop-in-java/)
