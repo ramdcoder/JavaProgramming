@@ -1,0 +1,27 @@
+Arrays.sort() in java
+
+[Arrays.sort() in java](https://www.flowerbrackets.com/arrays-sort-in-java/)
+
+sort method is java.util.Arrays class method. sort method sorts the specified range of the array into ascending order.
+
+The range to be sorted extends from the index fromIndex, inclusive, to the index toIndex, exclusive. If fromIndex == toIndex, the range to be sorted is empty.
+
+Syntax:
+
+public static void sort(int[] a, int fromIndex, int toIndex)
+
+Parameters:
+
+a – array to be sorted
+
+fromIndex – index of the first element to be sorted, inclusive.
+
+toIndex – index of the last element to be sorted, exclusive.
+
+sort() method do not return any value.
+
+Throws:
+
+IllegalArgumentException – if fromIndex > toIndex
+
+ArrayIndexOutOfBoundsException – if fromIndex < 0 or toIndex > arr.length
