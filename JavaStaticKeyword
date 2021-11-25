@@ -1,0 +1,71 @@
+static keyword in java
+
+[static keyword in java](https://www.flowerbrackets.com/static-keyword-in-java/)
+
+A member declared with keyword static belongs to class rather than instance of a class. static keyword can be applied to variables, block, method and nested class. 
+static keyword is a non-access modifier.
+
+static class in java
+
+import java.util.*;
+public class OuterClass
+{
+   // static class
+   static class NestedClass
+   {
+      public void show()
+      {
+         System.out.println("in static class");
+      }
+   }
+   public static void main(String args[])
+   {
+      OuterClass.NestedClass obj = new OuterClass.NestedClass();
+      obj.show();
+   }
+}
+
+static variable in java
+
+class EmployeeDetails
+{
+   // instance variable
+   int empID;
+   String empName;
+   // static variable
+   static String company = "FlowerBrackets";
+   // EmployeeDetails constructor
+   EmployeeDetails(int ID, String name)
+   {
+      empID = ID;
+      empName = name;
+   }
+   void print()
+   {
+      System.out.println(empID + " " + empName + " " + company);
+   }
+}
+public class StaticVariableJava
+{
+   public static void main(String[] args)
+   {
+      EmployeeDetails obj1 = new EmployeeDetails(230, "Virat");
+      EmployeeDetails obj2 = new EmployeeDetails(231, "Rohit");
+      obj1.print();
+      obj2.print();
+   }
+}
+
+static method in java
+
+public class StaticMethodExample
+{
+   static void print()
+   {
+      System.out.println("in static method.");
+   }
+   public static void main(String[] args)
+   {
+      StaticMethodExample.print();
+   }
+}
