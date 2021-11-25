@@ -70,3 +70,5 @@ Core java and OOPS concept
 [static keyword in java](https://www.flowerbrackets.com/static-keyword-in-java/)
 
 [Interface in java](https://www.flowerbrackets.com/interface-in-java/)
+
+[Comments in java](https://www.flowerbrackets.com/comments-in-java/)
