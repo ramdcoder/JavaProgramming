@@ -1,0 +1,35 @@
+# While loop in java
+
+A java while iterates a block of statements until a condition is true. In a while loop condition is executed first.
+
+If a condition is true then statements inside while loop is executed. Else program control passes out of the loop.
+
+Looping statements in java are used to execute some block of statements until some expression or condition is evaluated.
+
+**Syntax:**
+
+```
+while(condition)
+{
+   // code goes here
+}
+```
+
+**while loop in java example:**
+
+```
+public class WhileLoopDemo
+{
+   public static void main(String args[])
+   {
+      int a = 1;
+      while(a < 10)
+      {
+         System.out.println(a);
+         a++;
+         System.out.print("\n");
+      }
+   }
+}
+```
+[while loop in java](https://www.flowerbrackets.com/while-loop-in-java/)
