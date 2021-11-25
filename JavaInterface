@@ -1,0 +1,16 @@
+Interface in java
+
+[Interface in java](https://www.flowerbrackets.com/interface-in-java/)
+
+Interface is collection of methods of abstract type (having empty body). It’s similar to Abstract class. Interface is blueprint of class. Interface specify what class must 
+do and not how to.
+
+A class which implements interface should define each and every method in the class. Interface is used to implement multiple inheritance in java (represent IS-A relationship).
+
+Syntax
+
+interface InterfaceName
+{
+   fields // by default interface fields are public, static final
+   methods // by default interface methods are abstract, public
+}
