@@ -1,0 +1,29 @@
+for-each loop in java
+
+[for-each loop in java](https://www.flowerbrackets.com/for-each-loop-in-java/)
+
+for-each in java traverse each element of an array sequentially without using index or counter. for-each loop or enhanced for loop was introduced in JDK 1.5 Here’s the syntax and example on for each loop.
+
+Syntax:
+
+for(<DataType of array><variablename> : <Array to be iterated>)
+{
+   // code
+}
+
+
+example of for each loop in java
+
+import java.util.*;
+public class ForEachLoopExample
+{
+   public static void main(String[] args)
+   {
+      int[] numbers = {2, 4, 6, 8, 10};
+      // for each loop
+      for(int n : numbers)
+      {
+         System.out.println(n);
+      }
+   }
+}
