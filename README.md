@@ -72,3 +72,5 @@ Core java and OOPS concept
 [Interface in java](https://www.flowerbrackets.com/interface-in-java/)
 
 [Comments in java](https://www.flowerbrackets.com/comments-in-java/)
+
+[Arrays.sort() in java](https://www.flowerbrackets.com/arrays-sort-in-java/)
