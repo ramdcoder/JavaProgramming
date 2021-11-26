@@ -1,0 +1,12 @@
+TreeSet in java
+
+[TreeSet in java](https://www.flowerbrackets.com/treeset-in-java/)
+
+TreeSet underlying data structure is Balanced Tree.
+TreeSet implementation in java: TreeSet implements NavigableSet interface by inheriting AbsractSet class.
+In TreeSet duplicate values are not allowed. Because TreeSet implements SortedSet interface.
+TreeSet does not allow to insert heterogeneous objects. Runtime exception ClassCastException is thrown, if we try to add heterogeneous objects.
+TreeSet will not allow null value.
+TreeSet objects are sorted and stored in ascending order. Insertion order is not preserved.
+Ordering (natural ordering) of elements in TreeSet is maintained by Set whether or not Comparator is provided explicitly.
+TreeSet is excellent choice for storing large amounts of data. It has faster retrieval and access time.
