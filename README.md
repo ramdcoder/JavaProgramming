@@ -78,3 +78,5 @@ Core java and OOPS concept
 [for-each loop in java](https://www.flowerbrackets.com/for-each-loop-in-java/)
 
 [TreeMap in java](https://www.flowerbrackets.com/treemap-in-java/)
+
+[Arrays copyOfRange() method in java](https://www.flowerbrackets.com/arrays-copyofrange-in-java/)
