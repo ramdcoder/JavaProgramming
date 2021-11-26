@@ -90,3 +90,5 @@ Core java and OOPS concept
 [Sorting HashMap by values in java](https://www.flowerbrackets.com/sorting-hashmap-by-values-in-java/)
 
 [Arrays in java](https://www.flowerbrackets.com/arrays-in-java/)
+
+[Multidimensional array in java](https://www.flowerbrackets.com/multidimensional-array-in-java/)
