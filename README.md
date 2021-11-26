@@ -84,3 +84,5 @@ Core java and OOPS concept
 [TreeSet in java](https://www.flowerbrackets.com/treeset-in-java/)
 
 [HashSet in java](https://www.flowerbrackets.com/hashset-in-java/)
+
+[ArrayList in java](https://www.flowerbrackets.com/arraylist-in-java/)
