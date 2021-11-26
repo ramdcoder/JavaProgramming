@@ -1,0 +1,18 @@
+Arrays copyOfRange() method in java
+
+[Arrays copyOfRange() method in java](https://www.flowerbrackets.com/arrays-copyofrange-in-java/)
+
+Arrays copyOfRange() method in java copies specified range of the original array into a new array. The initial index of the range (from) must lie between 0 and original.length, 
+inclusive.
+
+Syntax:
+
+public static int[] copyOfRange(int[] original_array, int from_index, int to_index)
+
+Throws:
+
+ArrayIndexOutOfBoundsException – if from < 0 or from > original.length.
+
+IllegalArgumentException – if from > to.
+
+NullPointerException – if original is null.
