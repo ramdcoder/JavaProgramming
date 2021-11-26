@@ -80,3 +80,5 @@ Core java and OOPS concept
 [TreeMap in java](https://www.flowerbrackets.com/treemap-in-java/)
 
 [Arrays copyOfRange() method in java](https://www.flowerbrackets.com/arrays-copyofrange-in-java/)
+
+[TreeSet in java](https://www.flowerbrackets.com/treeset-in-java/)
