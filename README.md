@@ -82,3 +82,5 @@ Core java and OOPS concept
 [Arrays copyOfRange() method in java](https://www.flowerbrackets.com/arrays-copyofrange-in-java/)
 
 [TreeSet in java](https://www.flowerbrackets.com/treeset-in-java/)
+
+[HashSet in java](https://www.flowerbrackets.com/hashset-in-java/)
