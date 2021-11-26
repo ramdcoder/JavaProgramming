@@ -1,0 +1,14 @@
+Arrays in java
+
+[Arrays in java](https://www.flowerbrackets.com/arrays-in-java/)
+
+Java array is an object which holds fixed number of elements of similar type.
+
+java array example: int[ ] num = new int[6];
+
+Array index value starts from 0.
+Array contain primitive data types (actual values stored in contiguous memory) and objects (array objects are stored in heap) based on definition of array.
+Array contains a chain of elements stored under one variable name. Hence array occupies consecutive memory location.
+Array superclass is Object.
+Array size should be defined as integer value.
+Length of an array can be found using member ‘length’.
