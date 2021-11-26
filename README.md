@@ -76,3 +76,5 @@ Core java and OOPS concept
 [Arrays.sort() in java](https://www.flowerbrackets.com/arrays-sort-in-java/)
 
 [for-each loop in java](https://www.flowerbrackets.com/for-each-loop-in-java/)
+
+[TreeMap in java](https://www.flowerbrackets.com/treemap-in-java/)
