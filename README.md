@@ -86,3 +86,5 @@ Core java and OOPS concept
 [HashSet in java](https://www.flowerbrackets.com/hashset-in-java/)
 
 [ArrayList in java](https://www.flowerbrackets.com/arraylist-in-java/)
+
+[Sorting HashMap by values in java](https://www.flowerbrackets.com/sorting-hashmap-by-values-in-java/)
