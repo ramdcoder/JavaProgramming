@@ -1,0 +1,32 @@
+HashSet in java
+
+[HashSet in java](https://www.flowerbrackets.com/hashset-in-java/)
+
+underlying data structure for HashSet is hashtable.
+HashSet implements Set interface.
+HashSet does not allow duplicate elements. If any duplicate object is added, then add() method returns “false” without adding any duplicate object.
+Object are inserted based on their hash code.
+HashSet does not maintain or preserve insertion order.
+In hashset heterogeneous elements are allowed.
+HashSet allow “null” value.
+HashSet implements Serializable and Cloneable interface.
+In hashset, searching objects is easier. Because objects are stored based on hashcode.
+HashSet do not implement RandomAccess interface.
+
+
+Let’s see java hashset example.
+
+import java.util.HashSet;
+public class HashSetExample
+{
+   public static void main(String[] args)
+   {
+      HashSet<String> hs = new HashSet<>();
+      hs.add("Banana");
+      hs.add("Orange");
+      hs.add("Apple");
+      hs.add("Pineapple");
+      hs.add("Mango");
+      System.out.println(hs);
+   }
+}
