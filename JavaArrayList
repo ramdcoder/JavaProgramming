@@ -1,0 +1,16 @@
+ArrayList in java
+
+[ArrayList in java](https://www.flowerbrackets.com/arraylist-in-java/)
+
+java ArrayList allows duplicate elements.
+Java ArrayList preserves insertion order.
+java ArrayList is widely used because of its functionality and flexibility. It is designed to hold heterogeneous collections of objects.
+Java ArrayList can have any number of null values.
+Java ArrayList is part of collection framework.
+Java Arraylist implements list interface.
+ArrayList is a re-sizable array that grows dynamically when elements are added and decreased when elements are deleted.
+For frequent retrieving operation java ArrayList is the best. Because ArrayList elements are stored in consecutive memory locations.
+ArrayList cannot hold primitive data types such as int, double, char, and long.
+ArrayList can hold String and wrapper class objects (Double, Integer).
+ArrayList is index based; we can randomly access elements using index positions.
+Java ArrayList class implements RandomAccess interface.
