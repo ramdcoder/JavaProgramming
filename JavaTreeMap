@@ -1,0 +1,17 @@
+TreeMap in java
+
+[TreeMap in java](https://www.flowerbrackets.com/treemap-in-java/)
+
+TreeMap is a member of java collections framework.
+TreeMap implements Map interface.
+TreeMap maintain its entries in ascending order.
+Treemap implementation in java: TreeMap is red black tree based NavigableMap implementation.
+TreeMap doesn’t allow null key. However allow multiple null values.
+TreeMap is sorted according to natural ordering of its keys and it is sorted in ascending order of its keys.
+TreeMap contain only unique elements.
+TreeMap implementation is not synchronized. Because if map access multiple threads concurrently then one of the threads should be accessed externally using SortedMap sm = Collections.synchronizedSortedMap(new TreeMap).
+Declaration: TreeMap class
+
+java.util.TreeMap class
+
+public class TreeMap<K,V> extends AbstractMap<K,V> implements NavigableMap<K,V>, Cloneable, Serializable
