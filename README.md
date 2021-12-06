@@ -92,3 +92,5 @@ Core java and OOPS concept
 [Arrays in java](https://www.flowerbrackets.com/arrays-in-java/)
 
 [Multidimensional array in java](https://www.flowerbrackets.com/multidimensional-array-in-java/)
+
+[Difference between == operator and equals method in java](https://www.flowerbrackets.com/difference-between-equal-operator-vs-equals-method-java/)
