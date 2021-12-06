@@ -1,0 +1,59 @@
+Difference between == operator and equals method in java
+
+[Difference between == operator and equals method in java](https://www.flowerbrackets.com/difference-between-equal-operator-vs-equals-method-java/)
+
+Example:
+
+// == operator
+String str1 = new String("Hello");
+String str2 = new String("Hello");
+System.out.println(str1 == str2); // output : false
+
+
+// equals method
+String str1 = new String("Hello");
+String str2 = new String("Hello");
+System.out.println(str1.equals(str2)); // output : true
+
+== and equals() example
+Let’s compare strings using String equals() method and == operator or equals and == in java (detailed or complete) example.
+
+public class OperatorMethodExample
+{
+   public static void main(String[] args) 
+   {
+      String str1 = new String("helloworld");
+      String str2 = new String("helloworld");
+      // two strings have different object so output is false
+      boolean output = str1 == str2;
+      System.out.println("Comparing with == operator : " + output);
+      // strings contain same content hence true
+      // java.lang.String class override equals method of Object class
+      output = str1.equals(str2);
+      System.out.println("Comparing with same content using equals() java : " + output);
+      str2 = str1;
+      // both str1 and str2 reference are pointing to same object hence
+      // "==" operator return true
+      output = (str1 == str2);
+      System.out.println("Comparing with == operator : " + output);
+   }
+}
+
+Now let’s compare two objects using == operator and equals() method.
+
+public class ComparisonDemo
+{
+   public static void main(String[] args)
+   {
+      Object ob1 = new Object();
+      Object ob2 = new Object();
+      boolean output;
+      output = (ob1 == ob2);
+      System.out.println("== operator : " + output);
+      output = ob1.equals(ob2);
+      System.out.println("equals() method : " + output);
+      ob1 = ob2;
+      output = (ob1 == ob2);
+      System.out.println("Comparing two reference pointing to same Object using == operator : " + output);
+   }
+}
