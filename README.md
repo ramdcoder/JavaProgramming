@@ -96,3 +96,5 @@ Core java and OOPS concept
 [Difference between == operator and equals method in java](https://www.flowerbrackets.com/difference-between-equal-operator-vs-equals-method-java/)
 
 [String constructors in java](https://www.flowerbrackets.com/string-constructors-in-java/)
+
+[Do while loop in java](https://www.flowerbrackets.com/do-while-loop-java/)
