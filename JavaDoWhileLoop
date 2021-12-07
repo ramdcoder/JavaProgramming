@@ -1,0 +1,37 @@
+Do while loop in java
+
+[Do while loop in java](https://www.flowerbrackets.com/do-while-loop-java/)
+
+do while java executes the statements and then evaluates the expression/condition of loop’s body until given condition is true.
+
+So do while loop is guaranteed to execute the body at least once. Here expression in do while loop should return a boolean value.
+
+Here’s do while syntax java.
+
+do{
+   statement(s);
+}while(expression/condition);
+
+Here’s do while java program.
+
+public class DoWhileLoopExample
+{
+   public static void main(String[] args)
+   {
+      int a = 5;
+      do {
+          System.out.print(a);
+          a++;
+          System.out.print("\n");
+      }while(a < 10);
+   }
+}
+
+
+Output:
+
+5
+6
+7
+8
+9
