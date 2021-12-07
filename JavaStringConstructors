@@ -1,0 +1,47 @@
+String constructors in java
+
+[String constructors in java](https://www.flowerbrackets.com/string-constructors-in-java/)
+
+A string is an object of class String. String constructors are used for creating and initializing string objects.
+
+String constructors in java
+String constructor java is created using “new” keyword. Below are list of constructors of string class in java,
+
+String str = new String(); it creates empty string object. For example,
+
+
+ 
+String str = new String(); // empty object is created
+// here reference variable "str" length will be zero
+
+
+String str = new String(“string literal”); creates string object on heap for given string literal.
+
+class Demo
+{
+   public static void main(String args[])
+   {
+      // String("Flower Brackets") is constructor
+      String str = new String("FlowerBrackets"); // creates object in heap area
+      System.out.println(str);  // FlowerBrackets
+   }
+}
+
+
+Here first String object is created and initialized to value “FlowerBrackets” and assigned to reference variable “str”.
+
+Java compiler invokes String(“FlowerBrackets”) constructor and initializes String object in between parentheses which is passed as argument.
+
+Here are string constructors in java with example.
+
+String str = new String(char ch[]): this creates a new string from java character array.
+
+char ch[] = {'h', 'e', 'l', 'l', 'o'};
+String str = new String(ch);
+System.out.println(str);  // hello
+
+String str = new String(byte arr[]): this creates and initializes a new String from byte array. These byte array elements ASCII value is converted to string.
+
+byte[] arr = {88, 89, 90};
+String str = new String(arr);
+System.out.println(str); // XYZ
