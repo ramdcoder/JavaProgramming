@@ -1,0 +1,25 @@
+ArrayList Object[] toArray() method in java
+
+[ArrayList Object[] toArray() method in java](https://www.flowerbrackets.com/arraylist-object-toarray-method-in-java/)
+
+Now let’s see an example on ArrayList Object[] toArray() method.
+
+import java.util.ArrayList;
+import java.util.List;
+public class ArrayListObjectToArrayMethodExample
+{
+   public static void main(String[] args)
+   {
+      List<Integer> al = new ArrayList<Integer>();
+      al.add(12);
+      al.add(14);
+      al.add(16);
+      al.add(18);
+      al.add(20);
+      Object[] obj = al.toArray();
+      for(Object num : obj)
+      {
+         System.out.print(num + " ");
+      }
+   }
+}
