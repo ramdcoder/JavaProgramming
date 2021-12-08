@@ -1,0 +1,29 @@
+ArrayList iterator(<E>) method in java
+
+[ArrayList iterator(<E>) method in java](https://www.flowerbrackets.com/arrayist-iterator-method-in-java/)
+
+Now let’s see an example on ArrayList iterator() method.
+
+import java.util.ArrayList;
+import java.util.Iterator;
+public class ArrayListIteratorMethodExample
+{
+   public static void main(String[] args)
+   {
+      ArrayList<String> fruits = new ArrayList<String>(7);
+      fruits.add("banana");
+      fruits.add("mango");
+      fruits.add("apple");
+      fruits.add("watermelon");
+      fruits.add("pineapple");
+      fruits.add("orange");
+      fruits.add("plum");
+      Iterator<String> iterate;
+      iterate = fruits.iterator();
+      System.out.println("Fruits in ArrayList are: ");
+      while(iterate.hasNext())
+      {
+         System.out.println(iterate.next());
+      }
+   }
+}
