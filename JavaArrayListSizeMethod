@@ -1,0 +1,24 @@
+ArrayList size() method in java
+
+[ArrayList size() method in java](https://www.flowerbrackets.com/arraylist-size-method-in-java/)
+
+Now let’s see example on ArrayList size() method.
+
+import java.util.ArrayList;
+public class ArrayListSizeMethodExample
+{
+   public static void main(String[] args)
+   {
+      ArrayList<String> al = new ArrayList<String>();
+      int s = al.size();
+      System.out.println("size of ArrayList: " + s);
+      al.add("red");
+      al.add("blue");
+      al.add("green");
+      s = al.size();
+      System.out.println("size of ArrayList after adding elements: " + s);
+      al.clear();
+      s = al.size();
+      System.out.println("size of ArrayList after clearing elements: " + s);
+   }
+}
