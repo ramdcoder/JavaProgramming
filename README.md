@@ -138,3 +138,5 @@ Core java and OOPS concept
 [ArrayList <E> listIterator(int index) method in java](https://www.flowerbrackets.com/arraylist-listiterator-method-in-java/)
 
 [ArrayList listIterator(int index) method in java](https://www.flowerbrackets.com/arraylist-listiterator-int-index-method-in-java/)
+
+[ArrayList Object[] toArray() method in java](https://www.flowerbrackets.com/arraylist-object-toarray-method-in-java/)  
