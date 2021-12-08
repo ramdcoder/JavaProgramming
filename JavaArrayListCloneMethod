@@ -1,0 +1,45 @@
+ArrayList clone() method in java
+
+[ArrayList clone() method in java](https://www.flowerbrackets.com/arraylist-clone-method-in-java/)
+
+Now let’s see example on ArrayList clone() method.
+
+import java.util.ArrayList;
+public class ArrayListCloneMethodExample
+{
+   public static void main(String[] args)
+   {
+      ArrayList<String> al = new ArrayList<String>();
+      al.add("violet");
+      al.add("indigo");
+      al.add("blue");
+      al.add("green");
+      al.add("yellow");
+      System.out.println("ArrayList before using clone() method: " + al);
+      // create another ArrayList and copy
+      ArrayList<String> arrClone = new ArrayList<String>();
+      arrClone = (ArrayList)al.clone();
+      System.out.println("ArrayList after using clone() method: " + arrClone);
+   }
+}
+
+Let’s see another example on ArrayList clone() method.
+
+import java.util.ArrayList;
+public class ArrayListCloneMethodExample
+{
+   public static void main(String[] args)
+   {
+      ArrayList<Integer> al = new ArrayList<Integer>();
+      al.add(20);
+      al.add(40);
+      al.add(60);
+      al.add(80);
+      al.add(100);
+      System.out.println("ArrayList before using clone() method: " + al);
+      // create another ArrayList and copy
+      ArrayList<Integer> arrClone = new ArrayList<Integer>();
+      arrClone = (ArrayList)al.clone();
+      System.out.println("ArrayList after using clone() method: " + arrClone);
+   }
+}
