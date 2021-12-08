@@ -1,0 +1,26 @@
+ArrayList E get(int index) method in java
+
+[ArrayList E get(int index) method in java](https://www.flowerbrackets.com/arraylist-get-index-method-in-java/)
+
+Now let’s see example on ArrayList get(int index) method.
+
+import java.util.ArrayList;
+public class ArrayListGetExample
+{
+   public static void main(String[] args)
+   {
+      ArrayList<String> al = new ArrayList<String>();
+      al.add("lion");
+      al.add("tiger");
+      al.add("deer");
+      al.add("cheetah");
+      al.add("elephant");
+      al.add("fox");
+      al.add("hyenas");
+      al.add("jackal");
+      System.out.println("Get second element of ArrayList: " + al.get(1));
+      System.out.println("Get third element of ArrayList: " + al.get(2));
+      System.out.println("Get fifth element of ArrayList: " + al.get(4));
+      System.out.println("Get sixth element of ArrayList: " + al.get(5));
+   }
+}
