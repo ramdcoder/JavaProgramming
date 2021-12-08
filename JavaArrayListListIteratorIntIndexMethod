@@ -1,0 +1,35 @@
+ArrayList listIterator(int index) method in java
+
+[ArrayList listIterator(int index) method in java](https://www.flowerbrackets.com/arraylist-listiterator-int-index-method-in-java/)
+
+Now let’s see example on ArrayList listIterator(int index) method.
+
+import java.util.ArrayList;
+import java.util.ListIterator;
+public class ArrayListListIteratorIndexMethodExample
+{
+   public static void main(String[] args)
+   {
+      ArrayList<String> al = new ArrayList<String>();
+      al.add("apple");
+      al.add("pineapple");
+      al.add("orange");
+      al.add("watermelon");
+      al.add("banana");
+      System.out.println("ArrayList of fruits: " + al);
+      ListIterator<String> lif = al.listIterator(1);
+      ListIterator<String> lib = al.listIterator(2);
+      // using hasNext() and next() methods to iterate in forward direction
+      System.out.println("Iterate in forward direction from second position: ");
+      while(lif.hasNext())
+      {
+         System.out.println(lif.next());
+      }
+      // using hasPrevious() and previous() methods to iterate in backward direction
+      System.out.println("Iterate in backward direction from second position: ");
+      while(lib.hasPrevious())
+      {
+         System.out.println(lib.previous());
+      }
+   }
+}
