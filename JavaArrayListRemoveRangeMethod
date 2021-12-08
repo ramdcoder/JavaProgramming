@@ -1,0 +1,25 @@
+ArrayList removeRange(int fromIndex, int toIndex) method in java
+
+[ArrayList removeRange(int fromIndex, int toIndex) method in java](https://www.flowerbrackets.com/arraylist-removerange-int-fromindex-int-toindex-method-in-java/)
+
+Now let’s see example on ArrayList removeRange(int fromIndex, int toIndex) method.
+
+import java.util.ArrayList;
+// extending class since removeRange() is a protected method
+public class ArrayListRemoveRangeMethodExample extends ArrayList<Integer>
+{
+   public static void main(String[] args)
+   {
+      ArrayListRemoveRangeMethodExample al = new ArrayListRemoveRangeMethodExample();
+      al.add(23);
+      al.add(38);
+      al.add(18);
+      al.add(62);
+      al.add(27);
+      al.add(95);
+      System.out.println("ArrayList before using removeRange method: " + al);
+      // removing range of first 2 elements
+      al.removeRange(0, 2);
+      System.out.println("ArrayList after using removeRange method: " + al);
+   }
+}
