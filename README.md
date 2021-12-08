@@ -108,3 +108,5 @@ Core java and OOPS concept
 [ArrayList addAll(int index, Collection<? extends E> c) method in java](https://www.flowerbrackets.com/arraylist-addall-collection-extends-method-in-java/)
 
 [ArrayList add(int index, E element) method in java](https://www.flowerbrackets.com/arraylist-add-int-index-element-method-in-java/)
+
+[ArrayList addAll(int index, Collection<? extends E> c) method in java](https://www.flowerbrackets.com/arraylist-addall-int-index-collection-extends-method-in-java/)
