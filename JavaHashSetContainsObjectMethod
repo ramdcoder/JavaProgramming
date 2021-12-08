@@ -1,0 +1,20 @@
+HashSet contains(Object o) method in java
+
+[HashSet contains(Object o) method in java](https://www.flowerbrackets.com/hashset-contains-object-o-method-in-java/)
+
+Now let’s see example on HashSet contains(Object o) method.
+
+import java.util.HashSet;
+public class HashSetContainsObjectMethodExample
+{
+   public static void main(String[] args)
+   {
+      HashSet<String> hs = new HashSet<String>();
+      hs.add("hello");
+      hs.add("world");
+      hs.add("java");
+      // check if element exists
+      boolean bool = hs.contains("world");
+      System.out.println("Is element 'world' exists: " + bool);
+   }
+}
