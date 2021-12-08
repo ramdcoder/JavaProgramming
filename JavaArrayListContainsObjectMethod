@@ -1,0 +1,24 @@
+ArrayList contains(Object o) method in java
+
+[ArrayList contains(Object o) method in java](https://www.flowerbrackets.com/arraylist-contains-object-method-in-java/)
+
+Now let’s see example on ArrayList contains(Object o) method.
+
+import java.util.ArrayList;
+public class ArrayListContainsMethodExample
+{
+   public static void main(String[] args)
+   {
+      ArrayList<String> names = new ArrayList<String>(5);
+      names.add("virat");
+      names.add("dhoni");
+      names.add("rohit");
+      names.add("vijay");
+      names.add("ajay");
+      System.out.println("Names: " + names);
+      System.out.print("Does list contains name dhoni?: ");
+      System.out.println(names.contains("dhoni"));
+      System.out.print("Does list contains name Sudhakar?: ");
+      System.out.println(names.contains("Sudhakar"));
+   }
+}
