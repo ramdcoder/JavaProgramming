@@ -1,0 +1,31 @@
+ArrayList remove(int index) method in java
+
+[ArrayList remove(int index) method in java](https://www.flowerbrackets.com/arraylist-remove-int-index-method-in-java/)
+
+Now let’s see example on ArrayList remove(int index) method.
+
+import java.util.ArrayList;
+public class ArrayListRemoveIndexMethodExample
+{
+   public static void main(String[] args)
+   {
+      ArrayList<Integer> al = new ArrayList<Integer>(5);
+      al.add(56);
+      al.add(29);
+      al.add(76);
+      al.add(94);
+      System.out.println("ArrayList size: " + al.size());
+      for(Integer number : al)
+      {
+         System.out.println("Number: " + number);
+      }
+      // removing element at third position
+      al.remove(2);
+      System.out.println("ArrayList size after using remove(int index) method: " + al.size());
+      // printing all elements in list
+      for(Integer number : al)
+      {
+         System.out.println("Number: " + number);
+      }
+   }
+}
