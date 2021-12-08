@@ -106,3 +106,5 @@ Core java and OOPS concept
 [ArrayList remove(Object o) method in java](https://www.flowerbrackets.com/arraylist-remove-object-method-in-java/)
 
 [ArrayList addAll(int index, Collection<? extends E> c) method in java](https://www.flowerbrackets.com/arraylist-addall-collection-extends-method-in-java/)
+
+[ArrayList add(int index, E element) method in java](https://www.flowerbrackets.com/arraylist-add-int-index-element-method-in-java/)
