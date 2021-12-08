@@ -1,0 +1,28 @@
+ArrayList indexOf(Object o) method in java
+
+[ArrayList indexOf(Object o) method in java](https://www.flowerbrackets.com/arraylist-indexof-object-method-in-java/)
+
+Now let’s see example on ArrayList indexOf(Object o) method.
+
+import java.util.ArrayList;
+public class ArrayListIndexOfMethodExample
+{
+   public static void main(String[] args)
+   {
+      ArrayList<Integer> al = new ArrayList<Integer>(5);
+      al.add(8);
+      al.add(6);
+      al.add(5);
+      al.add(7);
+      al.add(9);
+      System.out.print("ArrayList values are: ");
+      for(Integer num : al)
+      {
+         System.out.print(num);
+         System.out.print(" ");
+      }
+      // indexOf() method to find index of 5
+      int position = al.indexOf(5);
+      System.out.println("\nElement 5 is at index: " + position);
+   }
+}
