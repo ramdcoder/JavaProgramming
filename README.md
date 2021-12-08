@@ -98,3 +98,5 @@ Core java and OOPS concept
 [String constructors in java](https://www.flowerbrackets.com/string-constructors-in-java/)
 
 [Do while loop in java](https://www.flowerbrackets.com/do-while-loop-java/)
+
+[ArrayList trimToSize() method in java](https://www.flowerbrackets.com/arraylist-trimtosize-method-in-java/)
