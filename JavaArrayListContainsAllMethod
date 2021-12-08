@@ -1,0 +1,30 @@
+ArrayList containsAll(Collection c) method in java
+
+[ArrayList containsAll(Collection c) method in java](https://www.flowerbrackets.com/arraylist-containsall-collection-method-in-java/)
+
+Now let’s see example on ArrayList containsAll(Collection c) method.
+
+import java.util.ArrayList;
+public class ArrayListContainsAllMethodExample
+{
+   public static void main(String[] args)
+   {
+      ArrayList<String> al1 = new ArrayList<String>();
+      al1.add("red");
+      al1.add("green");
+      al1.add("blue");
+      System.out.println("ArrayList 1: " + al1);
+      // creating another ArrayList
+      ArrayList<String> al2 = new ArrayList<String>();
+      // adding elements to second ArrayList
+      al2.add("blue");
+      al2.add("green");
+      System.out.println("ArrayList 2: " + al2);
+      // checking if ArrayList 1 contains ArrayList 2
+      boolean output1 = al1.containsAll(al2);
+      System.out.println("Does ArrayList 1 contains all elements of ArrayList 2?: " + output1);
+      // checking if ArrayList 2 contains ArrayList 1
+      boolean output2 = al2.containsAll(al1);
+      System.out.println("Does ArrayList 2 contains all elements of ArrayList 1?: " + output2);
+   }
+}
