@@ -100,3 +100,5 @@ Core java and OOPS concept
 [Do while loop in java](https://www.flowerbrackets.com/do-while-loop-java/)
 
 [ArrayList trimToSize() method in java](https://www.flowerbrackets.com/arraylist-trimtosize-method-in-java/)
+
+[ArrayList removeAll(Collection c) method in java](https://www.flowerbrackets.com/arraylist-removeall-collection-method-in-java/)
