@@ -1,0 +1,36 @@
+ArrayList subList(int fromIndex, int toIndex) method in java
+
+[ArrayList subList(int fromIndex, int toIndex) method in java](https://www.flowerbrackets.com/arraylist-sublist-fromindex-toindex-method-in-java/)
+
+Now let’s see example on ArrayList subList(int fromIndex, int toIndex) method.
+
+import java.util.ArrayList;
+import java.util.List;
+public class ArrayListSubListMethodExample
+{
+   public static void main(String[] args)
+   {
+      try
+      {
+         ArrayList<String> al = new ArrayList<String>();
+         al.add("orange");
+         al.add("apple");
+         al.add("strawberry");
+         al.add("banana");
+         al.add("mango");
+         System.out.println("Given ArrayList: " + al);
+         // get subList using subList() method
+         List<String> li = al.subList(2, 4);
+         // printing subList
+         System.out.println("Sublist of ArrayList: " + li);
+      }
+      catch(IndexOutOfBoundsException e)
+      {
+         System.out.println("Exception: " + e);
+      }
+      catch(IllegalArgumentException ex)
+      {
+         System.out.println("Exception: " + ex);
+      }
+   }
+}
