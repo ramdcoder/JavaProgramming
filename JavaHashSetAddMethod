@@ -1,0 +1,21 @@
+HashSet add(E e) method in java
+
+[HashSet add(E e) method in java](https://www.flowerbrackets.com/hashset-add-e-method-in-java/)
+
+Now let’s see example on HashSet add(E e) method.
+
+import java.util.HashSet;
+public class HashSetAddMethodExample
+{
+   public static void main(String[] args)
+   {
+      HashSet<String> hs = new HashSet<String>();
+      // populating hash set
+      hs.add("violet");
+      hs.add("indigo");
+      hs.add("blue");
+      hs.add("green");
+      hs.add("yellow");
+      System.out.println("HashSet of colors: " + hs);
+   }
+}
