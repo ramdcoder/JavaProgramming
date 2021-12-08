@@ -1,0 +1,27 @@
+ArrayList set(int index, E element) method in java
+
+[ArrayList set(int index, E element) method in java](https://www.flowerbrackets.com/arraylist-set-int-index-e-element-method-in-java/)
+
+Now let’s see example on ArrayList set(int index, E element) method.
+
+import java.util.ArrayList;
+public class ArrayListSetMethodExample
+{
+   public static void main(String[] args)
+   {
+      ArrayList<String> names = new ArrayList<String>(5);
+      names.add("vinay");
+      names.add("ajay");
+      names.add("vijay");
+      names.add("bharat");
+      names.add("dinesh");
+      System.out.println("ArrayList before using set() method: " + names);
+      // change vijay name to chandan
+      System.out.println("ArrayList after using set() method: ");
+      names.set(2, new String("chandan"));
+      for(int a = 0; a < 5; a++)
+      {
+         System.out.println(names.get(a).toString());
+      }
+   }
+}
