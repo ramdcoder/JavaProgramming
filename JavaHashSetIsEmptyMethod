@@ -1,0 +1,26 @@
+HashSet isEmpty() method in java
+
+[HashSet isEmpty() method in java](https://www.flowerbrackets.com/hashset-isempty-method-in-java/)
+
+Now let’s see example on HashSet isEmpty() method.
+
+import java.util.HashSet;
+public class HashSetIsEmptyMethodExample
+{
+   public static void main(String[] args)
+   {
+      HashSet<String> hs = new HashSet<String>();
+      hs.add("Welcome");
+      hs.add("hello");
+      hs.add("world");
+      hs.add("core");
+      hs.add("java");
+      System.out.println("HashSet before using isEmpty() method: " + hs);
+      // check if HashSet is empty
+      System.out.println("Is the HashSet empty: " + hs.isEmpty());
+      // clear HashSet using clear() method
+      hs.clear();
+      // again check if HashSet is empty
+      System.out.println("Is the HashSet empty: " + hs.isEmpty());
+   }
+}
