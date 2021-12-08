@@ -1,0 +1,23 @@
+ArrayList lastIndexOf(Object o) method in java
+
+[ArrayList lastIndexOf(Object o) method in java](https://www.flowerbrackets.com/arraylist-lastindexof-object-method-in-java/)
+
+Now let’s learn example on ArrayList lastIndexOf(Object o) method.
+
+import java.util.ArrayList;
+public class ArrayListLastIndexOfMethodExample
+{
+   public static void main(String[] args)
+   {
+      ArrayList<Integer> al = new ArrayList<Integer>();
+      al.add(40);
+      al.add(98);
+      al.add(20);
+      al.add(98);
+      al.add(35);
+      al.add(45);
+      al.add(35);
+      System.out.println("Last occurrence of element 98 is: " + al.lastIndexOf(98));
+      System.out.println("Last occurrence of element 35 is: " + al.lastIndexOf(35));
+   }
+}
