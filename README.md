@@ -134,3 +134,5 @@ Core java and OOPS concept
 [ArrayList subList(int fromIndex, int toIndex) method in java](https://www.flowerbrackets.com/arraylist-sublist-fromindex-toindex-method-in-java/)
 
 [ArrayList iterator(<E>) method in java](https://www.flowerbrackets.com/arrayist-iterator-method-in-java/)
+
+[ArrayList <E> listIterator(int index) method in java](https://www.flowerbrackets.com/arraylist-listiterator-method-in-java/)
