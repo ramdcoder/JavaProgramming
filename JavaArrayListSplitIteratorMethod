@@ -1,0 +1,25 @@
+ArrayList spliterator() method in java
+
+[ArrayList spliterator() method in java](https://www.flowerbrackets.com/arraylist-spliterator-method-in-java/)
+
+Now let’s see example on ArrayList spliterator() method.
+
+import java.util.ArrayList;
+import java.util.Spliterator;
+public class ArrayListSpliteratorMethodExample
+{
+   public static void main(String[] args)
+   {
+      ArrayList<String> al = new ArrayList<String>();
+      al.add("red");
+      al.add("blue");
+      al.add("green");
+      al.add("yellow");
+      al.add("orange");
+      // creating Spliterator of ArrayList and using spliterator() method
+      Spliterator<String> iterate = al.spliterator();
+      System.out.println("ArrayList of colors: ");
+      // forEachRemaining method of Spliterator
+      iterate.forEachRemaining((n) -> System.out.println(n));
+   }
+}
