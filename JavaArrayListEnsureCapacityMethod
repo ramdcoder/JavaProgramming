@@ -1,0 +1,24 @@
+ArrayList ensureCapacity(int minCapacity) method in java
+
+[ArrayList ensureCapacity(int minCapacity) method in java](https://www.flowerbrackets.com/arraylist-ensurecapacity-int-mincapacity-method-in-java/)
+
+Now let’s see example on ArrayList ensureCapacity(int minCapacity) method.
+
+import java.util.ArrayList;
+public class ArrayListEnsureCapacityMethodExample
+{
+   public static void main(String[] args)
+   {
+      ArrayList<Integer> al = new ArrayList<Integer>(5);
+      al.add(25);
+      al.add(36);
+      al.add(50);
+      // increase the capacity of ArrayList to 10 elements
+      al.ensureCapacity(10);
+      // printing all the elements available in list
+      for(Integer num : al)
+      {
+         System.out.println("Numbers: " + num);
+      }
+   }
+}
