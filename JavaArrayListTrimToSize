@@ -1,0 +1,29 @@
+ArrayList trimToSize() method in java
+
+[ArrayList trimToSize() method in java](https://www.flowerbrackets.com/arraylist-trimtosize-method-in-java/)
+
+Now let’s see an example on ArrayList trimToSize() method.
+
+import java.util.ArrayList;
+public class TrimToSizeMethodJavaExample
+{
+   public static void main(String[] args)
+   {
+      // initially size of ArrayList is 10
+      ArrayList<Integer> al = new ArrayList<Integer>(10);
+      // adding integers to ArrayList using add() method
+      al.add(1);
+      al.add(3);
+      al.add(5);
+      al.add(9);
+      al.add(11);
+      al.add(14);
+      // trims the size of ArrayList to 6 using trimToSize() method
+      al.trimToSize();
+      System.out.println("The ArrayList elements are: ");
+      for(Integer number : al)
+      {
+         System.out.println("Number: " + number);
+      }
+   }
+}
