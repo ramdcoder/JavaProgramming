@@ -1,0 +1,31 @@
+ArrayList retainAll(Collection<?> c) method in java
+
+[ArrayList retainAll(Collection<?> c) method in java](https://www.flowerbrackets.com/arraylist-retainall-collection-method-in-java/)
+
+Now let’s see an example on ArrayList retainAll(Collection<?> c) method.
+
+import java.util.ArrayList;
+public class ArrayListRetainAllMethod
+{
+   public static void main(String[] args)
+   {
+      ArrayList<String> al1 = new ArrayList<String>();
+      al1.add("red");
+      al1.add("blue");
+      al1.add("green");
+      // create another ArrayList
+      ArrayList<String> al2 = new ArrayList<String>();
+      al2.add("red");
+      al2.add("green");
+      al2.add("indigo");
+      al2.add("yellow");
+      // printing ArrayList before using retainAll() method
+      System.out.println("ArrayList 1: " + al1);
+      System.out.println("ArrayList 2: " + al2);
+      // applying retainAll() method to al2 passing al1 as parameter
+      al2.retainAll(al1);
+      System.out.println("After Applying retainAll() method to al2: ");
+      System.out.println("ArrayList 1: " + al1);
+      System.out.println("ArrayList 2: " + al2);
+   }
+}
