@@ -1,0 +1,38 @@
+ArrayList removeAll(Collection c) method in java
+
+[ArrayList removeAll(Collection c) method in java](https://www.flowerbrackets.com/arraylist-removeall-collection-method-in-java/)
+
+Now let’s see ArrayList removeAll(Collection c) method example.
+
+import java.util.ArrayList;
+public class ArrayListRemoveAllExample
+{
+   public static void main(String[] args)
+   {
+      try
+      {
+         ArrayList<Integer> al1 = new ArrayList<Integer>();
+         al1.add(2);
+         al1.add(4);
+         al1.add(6);
+         al1.add(8);
+         al1.add(10);
+         System.out.println("ArrayList before using removeAll() method: " + al1);
+         // create another ArrayList
+         ArrayList<Integer> al2 = new ArrayList<Integer>();
+         al2.add(2);
+         al2.add(4);
+         al2.add(6);
+         // print al2
+         System.out.println("Elements to be removed: " + al2);
+         // remove elements from ArrayList using removeAll() method
+         al1.removeAll(al2);
+         // print al1
+         System.out.println("ArrayList after using removeAll() method: " + al1);
+      }
+      catch(NullPointerException ex)
+      {
+         System.out.println("Exception: " + ex);
+      }
+   }
+}
