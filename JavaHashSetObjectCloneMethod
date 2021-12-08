@@ -1,0 +1,26 @@
+HashSet Object clone() method in java
+
+[HashSet Object clone() method in java](https://www.flowerbrackets.com/hashset-object-clone-method-in-java/)
+
+Now let’s see example on HashSet Object clone() method.
+
+import java.util.HashSet;
+public class HashSetObjectCloneMethodExample
+{
+   public static void main(String[] args)
+   {
+      HashSet<String> hs = new HashSet<String>();
+      hs.add("Welcome");
+      hs.add("hello");
+      hs.add("world");
+      hs.add("core");
+      hs.add("java");
+      System.out.println("HashSet before using clone() method: " + hs);
+      // create new cloned HashSet
+      HashSet<String> objClone = new HashSet<String>();
+      // clone HashSet using clone() method
+      objClone = (HashSet)hs.clone();
+      // print new HashSet after cloning
+      System.out.println("HashSet after using clone() method: " + objClone);
+   }
+}
