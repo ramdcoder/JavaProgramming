@@ -102,3 +102,5 @@ Core java and OOPS concept
 [ArrayList trimToSize() method in java](https://www.flowerbrackets.com/arraylist-trimtosize-method-in-java/)
 
 [ArrayList removeAll(Collection c) method in java](https://www.flowerbrackets.com/arraylist-removeall-collection-method-in-java/)
+
+[ArrayList remove(Object o) method in java](https://www.flowerbrackets.com/arraylist-remove-object-method-in-java/)
