@@ -122,3 +122,5 @@ Core java and OOPS concept
 [ArrayList E get(int index) method in java](https://www.flowerbrackets.com/arraylist-get-index-method-in-java/)
 
 [ArrayList indexOf(Object o) method in java](https://www.flowerbrackets.com/arraylist-indexof-object-method-in-java/)
+
+[ArrayList lastIndexOf(Object o) method in java](https://www.flowerbrackets.com/arraylist-lastindexof-object-method-in-java/)
