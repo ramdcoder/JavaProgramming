@@ -1,0 +1,21 @@
+ArrayList forEach(Consumer<? super E> action) method in java
+
+[ArrayList forEach(Consumer<? super E> action) method in java](https://www.flowerbrackets.com/arraylist-foreach-consumer-super-action-method-in-java/)
+
+Now let’s see example on ArrayList forEach(Consumer<? super E> action) method.
+
+import java.util.ArrayList;
+public class ArrayListForEachMethodExample
+{
+   public static void main(String[] args)
+   {
+      ArrayList<Integer> al = new ArrayList<Integer>();
+      al.add(10);
+      al.add(50);
+      al.add(20);
+      al.add(82);
+      al.add(75);
+      // print numbers using forEach method of ArrayList
+      al.forEach((n) -> System.out.println(n));
+   }
+}
