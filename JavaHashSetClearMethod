@@ -1,0 +1,23 @@
+HashSet clear() method in java
+
+[HashSet clear() method in java](https://www.flowerbrackets.com/hashset-clear-method-in-java/)
+
+Now let’s see example on HashSet clear() method.
+
+import java.util.HashSet;
+public class HashSetClearMethodExample
+{
+   public static void main(String[] args)
+   {
+      HashSet<String> hs = new HashSet<String>();
+      hs.add("Welcome");
+      hs.add("hello");
+      hs.add("world");
+      hs.add("core");
+      hs.add("java");
+      System.out.println("HashSet before using clear() method: " + hs);
+      // HashSet clear() method
+      hs.clear();
+      System.out.println("HashSet after using clear() method: " + hs);
+   }
+}
