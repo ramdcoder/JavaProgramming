@@ -162,3 +162,5 @@ Core java and OOPS concept
 [HashSet Object clone() method in java](https://www.flowerbrackets.com/hashset-object-clone-method-in-java/)
 
 [HashSet contains(Object o) method in java](https://www.flowerbrackets.com/hashset-contains-object-o-method-in-java/)
+
+[HashSet isEmpty() method in java](https://www.flowerbrackets.com/hashset-isempty-method-in-java/)
