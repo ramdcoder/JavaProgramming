@@ -1,0 +1,44 @@
+ArrayList addAll(int index, Collection<? extends E> c) method in java
+
+[ArrayList addAll(int index, Collection<? extends E> c) method in java](https://www.flowerbrackets.com/arraylist-addall-collection-extends-method-in-java/)
+
+Now let’s see example on ArrayList addAll(Collection <? extends E> c) method.
+
+import java.util.ArrayList;
+public class ArrayListAddAllMethodExample
+{
+   public static void main(String[] args)
+   {
+      // creating an empty array ArrayList with an initial capacity
+      ArrayList<Integer> al1 = new ArrayList<Integer>(5);
+      al1.add(12);
+      al1.add(14);
+      al1.add(16);
+      // printing all ArrayList elements
+      System.out.println("ArrayList 1: ");
+      for(Integer number : al1)
+      {
+         System.out.println("Number: " + number);
+      }
+      // creating another empty ArrayList with an initial capacity
+      ArrayList<Integer> al2 = new ArrayList<Integer>(5);
+      al2.add(19);
+      al2.add(21);
+      al2.add(23);
+      al2.add(25);
+      // printing all the elements of second ArrayList
+      System.out.println("ArrayList 2: ");
+      for(Integer number : al2)
+      {
+         System.out.println("Number: " + number);
+      }
+      // inserting all elements
+      al1.addAll(al2);
+      System.out.println("Printing all ArrayList elements: ");
+      // let us print all the elements available in list1
+      for(Integer number : al1)
+      {
+         System.out.println("Number: " + number);
+      }
+   }
+}
