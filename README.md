@@ -144,3 +144,5 @@ Core java and OOPS concept
 [ArrayList remove(int index) method in java](https://www.flowerbrackets.com/arraylist-remove-int-index-method-in-java/)  
 
 [ArrayList removeIf() method in java](https://www.flowerbrackets.com/arraylist-removeif-method-in-java/)  
+
+[ArrayList ensureCapacity(int minCapacity) method in java](https://www.flowerbrackets.com/arraylist-ensurecapacity-int-mincapacity-method-in-java/)  
