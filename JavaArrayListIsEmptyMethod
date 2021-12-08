@@ -1,0 +1,26 @@
+ArrayList isEmpty() method in java
+
+[ArrayList isEmpty() method in java](https://www.flowerbrackets.com/arraylist-isempty-method-in-java/)
+
+Now let’s see example on ArrayList isEmpty() method.
+
+import java.util.ArrayList;
+public class ArrayListIsEmptyMethodExample
+{
+   public static void main(String[] args)
+   {
+      ArrayList<Integer> al = new ArrayList<Integer>();
+      // before checking ArrayList using isEmpty() method
+      System.out.println("Is ArrayList empty: " + al.isEmpty());
+      al.add(86);
+      al.add(25);
+      al.add(53);
+      al.add(85);
+      // after checking ArrayList using isEmpty() method
+      System.out.println("Is ArrayList empty: " + al.isEmpty());
+      for(Integer num : al)
+      {
+         System.out.println(num);
+      }
+   }
+}
