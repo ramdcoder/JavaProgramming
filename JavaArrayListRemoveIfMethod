@@ -1,0 +1,25 @@
+ArrayList removeIf() method in java
+
+[ArrayList removeIf() method in java](https://www.flowerbrackets.com/arraylist-removeif-method-in-java/)
+
+Now let’s see example on ArrayList removeIf() method.
+
+import java.util.ArrayList;
+public class ArrayListRemoveIfMethodExample
+{
+   public static void main(String[] args)
+   {
+      ArrayList<Integer> al = new ArrayList<Integer>();
+      al.add(15);
+      al.add(8);
+      al.add(58);
+      al.add(19);
+      // remove numbers divisible by 2
+      al.removeIf(n -> (n % 2 == 0));
+      // print list
+      for(int a : al)
+      {
+         System.out.println(a);
+      }
+   }
+}
