@@ -130,3 +130,5 @@ Core java and OOPS concept
 [ArrayList size() method in java](https://www.flowerbrackets.com/arraylist-size-method-in-java/)
 
 [ArrayList clear() method in java](https://www.flowerbrackets.com/arraylist-clear-method-in-java/)
+
+[ArrayList subList(int fromIndex, int toIndex) method in java](https://www.flowerbrackets.com/arraylist-sublist-fromindex-toindex-method-in-java/)
