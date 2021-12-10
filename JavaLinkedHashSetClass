@@ -1,0 +1,46 @@
+LinkedHashSet class in java
+
+[LinkedHashSet class in java](https://www.flowerbrackets.com/linkedhashset-in-java/)
+
+Now let’s see linkedhashset example.
+
+import java.util.LinkedHashSet;
+public class LinkedHashsetExample
+{
+   public static void main(String[] args)
+   {
+      LinkedHashSet lhs = new LinkedHashSet();
+      lhs.add("Cheetah");    
+      lhs.add("Zebra");    
+      lhs.add("Bear");   
+      lhs.add("Deer");  
+      lhs.add("Anteater");
+      Iterator iterate = lhs.iterator();  
+      while(iterate.hasNext())  
+      {  
+         System.out.println(iterate.next());  
+      }
+   }
+}
+
+Let’s see another example of LinkedHashSet class ignoring duplicate elements.
+
+import java.util.Iterator;
+import java.util.LinkedHashSet;
+public class LinkedHashsetExample 
+{
+   public static void main(String[] args) 
+   {
+      LinkedHashSet<String> lhs = new LinkedHashSet<String>();  
+      lhs.add("Cheetah");    
+      lhs.add("Zebra");    
+      lhs.add("Zebra");   
+      lhs.add("Deer");
+      lhs.add("Anteater");
+      Iterator<String> iterate = lhs.iterator();  
+      while(iterate.hasNext())  
+      {  
+         System.out.println(iterate.next());  
+      }
+   }
+}
