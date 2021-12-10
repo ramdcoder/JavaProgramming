@@ -1,0 +1,25 @@
+TreeMap containsKey(Object key) method in java
+
+[TreeMap containsKey(Object key) method in java](https://www.flowerbrackets.com/treemap-containskey-method-in-java/)
+
+Now let’s see example on TreeMap containsKey(Object key) method.
+
+import java.util.TreeMap;
+public class TreeMapContainsKeyMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      // map String values to Integer keys
+      tm.put(56, "orange");
+      tm.put(62, "indigo");
+      tm.put(43, "red");
+      tm.put(91, "green");
+      tm.put(38, "yellow");
+      System.out.println("TreeMap before using containsKey() method: " + tm);
+      // check for key element '62'
+      System.out.println("Does key '62' present? " + tm.containsKey(62));
+      // check for key element '90'
+      System.out.println("Does key '90' present? " + tm.containsKey(90));
+   }
+}
