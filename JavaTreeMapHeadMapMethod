@@ -1,0 +1,27 @@
+TreeMap headMap() method in java
+
+[TreeMap headMap() method in java](https://www.flowerbrackets.com/treemap-headmap-method-in-java/)
+
+Now let’s see example on TreeMap headMap() method.
+
+import java.util.SortedMap;
+import java.util.TreeMap;
+public class TreeMapHeadMapMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      // map string values to integer keys
+      tm.put(65, "mango");
+      tm.put(63, "apple");
+      tm.put(35, "grapes");
+      tm.put(60, "pineapple");
+      tm.put(26, "banana");
+      System.out.println("Given TreeMap is: " + tm);
+      // create SortedMap for map head
+      SortedMap<Integer, String> sm = new TreeMap<Integer, String>();
+      sm = tm.headMap(60);
+      // Getting map head
+      System.out.println("headmap is: " + sm);
+   }
+}
