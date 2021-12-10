@@ -1,0 +1,21 @@
+TreeMap firstEntry() method in java
+
+[TreeMap firstEntry() method in java](https://www.flowerbrackets.com/treemap-firstentry-method-in-java/)
+
+Now let’s see example on TreeMap firstEntry() method.
+
+import java.util.TreeMap;
+public class TreeMapFirstEntryMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      tm.put(69, "mango");
+      tm.put(53, "apple");
+      tm.put(26, "orange");
+      tm.put(38, "grapes");
+      tm.put(50, "banana");
+      System.out.println("Checking TreeMap for first entry: ");
+      System.out.println("TreeMap firstEntry is: " + tm.firstEntry());
+   }
+}
