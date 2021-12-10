@@ -1,0 +1,21 @@
+TreeMap K firstKey() method in java
+
+[TreeMap K firstKey() method in java](https://www.flowerbrackets.com/treemap-k-firstkey-method-in-java/)
+
+Now let’s see example on TreeMap K firstKey() method.
+
+import java.util.TreeMap;
+public class TreeMapFirstKeyMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      tm.put(2, "tejas");
+      tm.put(1, "om");
+      tm.put(3, "tarun");
+      tm.put(6, "siddarth");
+      tm.put(5, "fanindra");
+      System.out.println("first key of TreeMap: ");
+      System.out.println("First key is: " + tm.firstKey());
+   }
+}
