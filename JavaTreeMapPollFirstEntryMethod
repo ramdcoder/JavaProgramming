@@ -1,0 +1,22 @@
+TreeMap pollFirstEntry() method in java
+
+[TreeMap pollFirstEntry() method in java](https://www.flowerbrackets.com/treemap-pollfirstentry-method-in-java/)
+
+Now let’s see example on TreeMap pollFirstEntry() method.
+
+import java.util.TreeMap;
+public class TreeMapPollFirstEntryMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      tm.put(63, "yellow");
+      tm.put(95, "red");
+      tm.put(96, "green");
+      tm.put(21, "violet");
+      tm.put(28, "blue");
+      System.out.println("TreeMap before using pollFirstEntry() method: " + tm);
+      System.out.println("Value is: " + tm.pollFirstEntry());
+      System.out.println("TreeMap after using pollFirstEntry() method: " + tm);
+   }
+}
