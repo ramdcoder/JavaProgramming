@@ -1,0 +1,22 @@
+TreeMap floorKey(K key) method in java
+
+[TreeMap floorKey(K key) method in java](https://www.flowerbrackets.com/treemap-floorkey-method-in-java/)
+
+Now let’s see example on TreeMap floorKey(K key) method.
+
+import java.util.TreeMap;
+public class TreeMapFloorkeyExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      tm.put(60, "apple");
+      tm.put(10, "banana");
+      tm.put(50, "cherry");
+      tm.put(30, "fig");
+      tm.put(80, "grape");
+      tm.put(90, "kiwifruit");
+      System.out.println("Checking greatest key less than or equal to 40: ");
+      System.out.println("Value is: " + tm.floorKey(40));
+   }
+}
