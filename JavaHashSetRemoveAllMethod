@@ -1,0 +1,36 @@
+HashSet removeAll(Collection<?> c) method in java
+
+[HashSet removeAll(Collection<?> c) method in java](https://www.flowerbrackets.com/hashset-removeall-method-in-java/)
+
+Now let’s see example on HashSet removeAll() method.
+
+import java.util.HashSet;
+public class HashSetRemoveAllMethodExample
+{
+   public static void main(String[] args)
+   {
+      try
+      {
+         HashSet<Integer> hs1 = new HashSet<Integer>();
+         hs1.add(2);
+         hs1.add(4);
+         hs1.add(6);
+         hs1.add(8);
+         hs1.add(10);
+         System.out.println("HashSet before using removeAll() method: " + hs1);
+         // create another HashSet
+         HashSet<Integer> hs2 = new HashSet<Integer>();
+         hs2.add(2);
+         hs2.add(4);
+         hs2.add(6);
+         System.out.println("Elements to be removed: " + hs2);
+         // remove elements from hs1 described in hs2 using removeAll() method
+         hs1.removeAll(hs2);
+         System.out.println("HashSet after using removeAll() method: " + hs1);
+      }
+      catch(NullPointerException ex)
+      {
+         System.out.println("Exception: " + ex);
+      }
+   }
+}
