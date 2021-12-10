@@ -1,0 +1,21 @@
+HashSet size() method in java
+
+[HashSet size() method in java](https://www.flowerbrackets.com/hashset-size-method-in-java/)
+
+Now let’s see example on HashSet size() method.
+
+import java.util.HashSet;
+public class HashSetSizeMethodExample
+{
+   public static void main(String[] args)
+   {
+      HashSet<String> hs = new HashSet<String>();
+      hs.add("Welcome");
+      hs.add("hello");
+      hs.add("world");
+      hs.add("core");
+      hs.add("java");
+      System.out.println("HashSet values: " + hs);
+      System.out.println("The size of HashSet is: " + hs.size());
+   }
+}
