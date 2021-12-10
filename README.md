@@ -202,3 +202,5 @@ Core java and OOPS concept
 [TreeMap floorEntry() method in java](https://www.flowerbrackets.com/treemap-floorentry-method-in-java/)  
 
 [TreeMap headMap() method in java](https://www.flowerbrackets.com/treemap-headmap-method-in-java/)  
+
+[TreeMap headMap(K toKey boolean inclusive) method in java](https://www.flowerbrackets.com/treemap-headmap-k-tokey-boolean-inclusive-method-in-java/)  
