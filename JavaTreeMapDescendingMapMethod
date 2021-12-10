@@ -1,0 +1,24 @@
+TreeMap descendingMap() method in java
+
+[TreeMap descendingMap() method in java](https://www.flowerbrackets.com/treemap-descendingmap-method-in-java/)
+
+Now let’s see example on TreeMap descendingMap() method.
+
+import java.util.NavigableMap;
+import java.util.TreeMap;
+public class TreeMapDescendingMapMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      tm.put(93, "blue");
+      tm.put(26, "violet");
+      tm.put(63, "red");
+      tm.put(53, "green");
+      tm.put(96, "five");
+      // put values in NavigableMap
+      NavigableMap nm = tm.descendingMap();
+      System.out.println("TreeMap values using descendingMap() method: ");
+      System.out.println("NavigableMap values: " + nm);
+   }
+}
