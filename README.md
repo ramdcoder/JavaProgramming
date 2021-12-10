@@ -188,3 +188,5 @@ Core java and OOPS concept
 [TreeMap clear() method in java](https://www.flowerbrackets.com/treemap-clear-method-in-java/)  
 
 [TreeMap containsKey(Object key) method in java](https://www.flowerbrackets.com/treemap-containskey-method-in-java/)  
+
+[TreeMap containsValue(Object value) method in java](https://www.flowerbrackets.com/treemap-containsvalue-method-in-java/)  
