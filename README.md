@@ -192,3 +192,5 @@ Core java and OOPS concept
 [TreeMap containsValue(Object value) method in java](https://www.flowerbrackets.com/treemap-containsvalue-method-in-java/)  
 
 [TreeMap descendingKeySet() method in java](https://www.flowerbrackets.com/treemap-descendingkeyset-method-in-java/)  
+
+[TreeMap descendingMap() method in java](https://www.flowerbrackets.com/treemap-descendingmap-method-in-java/)  
