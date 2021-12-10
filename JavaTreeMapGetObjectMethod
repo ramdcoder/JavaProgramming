@@ -1,0 +1,21 @@
+TreeMap V get(Object key) method in java
+
+[TreeMap V get(Object key) method in java](https://www.flowerbrackets.com/treemap-v-get-object-key-method-in-java/)
+
+Now let’s see example on TreeMap V get(Object key) method.
+
+import java.util.TreeMap;
+public class TreeMapGetObjectMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      tm.put(2, "tejas");
+      tm.put(1, "om");
+      tm.put(3, "tarun");
+      tm.put(6, "siddarth");
+      tm.put(5, "fanindra");
+      System.out.println("Check value of key 5: ");
+      System.out.println("Value is: " + tm.get(5));
+   }
+}
