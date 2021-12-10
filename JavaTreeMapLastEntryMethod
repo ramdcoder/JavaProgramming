@@ -1,0 +1,22 @@
+TreeMap lastEntry() method in java
+
+[TreeMap lastEntry() method in java](https://www.flowerbrackets.com/treemap-lastentry-method-in-java/)
+
+Now let’s see example on TreeMap lastEntry() method.
+
+import java.util.TreeMap;
+public class TreeMapLastEntryMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      tm.put(96, "mango");
+      tm.put(39, "grapes");
+      tm.put(56, "pineapple");
+      tm.put(93, "apple");
+      tm.put(69, "watermelon");
+      // get value with greatest key
+      System.out.println("Check last entry in given TreeMap: ");
+      System.out.println("Value is: "+ tm.lastEntry());
+   }
+}
