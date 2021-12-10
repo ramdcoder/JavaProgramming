@@ -1,0 +1,28 @@
+HashSet Iterator<E> iterator() method in java
+
+[HashSet Iterator<E> iterator() method in java](https://www.flowerbrackets.com/hashset-iterator-method-in-java/)
+
+Now let’s see example on HashSet iterator() method.
+
+import java.util.HashSet;
+import java.util.Iterator;
+public class HashSetIteratorMethodExample
+{
+   public static void main(String[] args)
+   {
+      HashSet<String> hs = new HashSet<String>();
+      hs.add("Welcome");
+      hs.add("hello");
+      hs.add("world");
+      hs.add("core");
+      hs.add("java");
+      System.out.println("HashSet values are: " + hs);
+      // create an Iterator
+      Iterator<String> value = hs.iterator();
+      System.out.println("iterator values are: ");
+      while(value.hasNext())
+      {
+         System.out.println(value.next());
+      }
+   }
+}
