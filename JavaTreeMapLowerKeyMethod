@@ -1,0 +1,26 @@
+TreeMap lowerKey(K key) method in java
+
+[TreeMap lowerKey(K key) method in java](https://www.flowerbrackets.com/treemap-lowerkey-k-key-method-in-java/)
+
+Now let’s see example on TreeMap lowerKey(K key) method.
+
+import java.util.TreeMap;
+public class TreeMapLowerKeyMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      tm.put(8, "mango");
+      tm.put(5, "apple");
+      tm.put(3, "watermelon");
+      tm.put(7, "pineapple");
+      tm.put(6, "orange");
+      tm.put(9, "grapes");
+      System.out.println("TreeMap: " + tm.toString());
+      // here 10 is not available it returns 9
+      System.out.print("Lower Key Entry of Element 10 is: ");
+      System.out.println(tm.lowerKey(10));
+      System.out.print("Lower Key Entry of Element 5 is: ");
+      System.out.println(tm.lowerKey(5));
+   }
+}
