@@ -1,0 +1,24 @@
+TreeMap ceilingKey(K key) method in java
+
+[TreeMap ceilingKey(K key) method in java](https://www.flowerbrackets.com/treemap-ceilingkey-method-in-java/)
+
+Now let’s see example on TreeMap ceilingKey(K key) method.
+
+import java.util.NavigableMap;
+import java.util.TreeMap;
+public class TreeMapCeilingkeyDemo
+{
+   public static void main(String[] args)
+   {
+      NavigableMap<Integer, String> nm = new TreeMap<Integer, String>();
+      nm.put(10, "apple");
+      nm.put(20, "banana");
+      nm.put(30, "cherry");
+      nm.put(40, "fig");
+      nm.put(60, "grape");
+      nm.put(70, "kiwifruit");
+      // 60 is least value > 50
+      // it is returned as key.
+      System.out.println("Ceiling key for 50: " + nm.ceilingKey(50));
+   }
+}
