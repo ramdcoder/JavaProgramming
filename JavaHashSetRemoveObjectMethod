@@ -1,0 +1,22 @@
+HashSet remove(Object o) method in java
+
+[HashSet remove(Object o) method in java](https://www.flowerbrackets.com/hashset-remove-object-o-method-in-java/)
+
+Now let’s see example on HashSet remove(Object o) method.
+
+import java.util.HashSet;
+public class HashSetRemoveObjectMethodExample
+{
+   public static void main(String[] args)
+   {
+      HashSet<String> hs = new HashSet<String>();
+      hs.add("hello");
+      hs.add("world");
+      hs.add("java");
+      System.out.println("HashSet before using remove(Object o) method: " + hs);
+      // remove string "world" from HashSet
+      boolean bool = hs.remove("world");
+      System.out.println("Has string removed? " + bool);
+      System.out.println("HashSet after using remove(Object o) method: " + hs);
+   }
+}
