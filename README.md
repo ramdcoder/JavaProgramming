@@ -214,3 +214,5 @@ Core java and OOPS concept
 [TreeMap lastKey() method in java](https://www.flowerbrackets.com/treemap-lastkey-method-in-java/)  
 
 [TreeMap lowerEntry(K key) method in java](https://www.flowerbrackets.com/treemap-lowerentry-k-key-method-in-java/)  
+
+[TreeMap lowerKey(K key) method in java](https://www.flowerbrackets.com/treemap-lowerkey-k-key-method-in-java/)  
