@@ -1,0 +1,25 @@
+TreeMap containsValue(Object value) method in java
+
+[TreeMap containsValue(Object value) method in java](https://www.flowerbrackets.com/treemap-containsvalue-method-in-java/)
+
+Now let’s see example on TreeMap containsValue(Object value) method.
+
+import java.util.TreeMap;
+public class TreeMapContainsValueMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      // Map string values to integer keys
+      tm.put(16, "indigo");
+      tm.put(12, "red");
+      tm.put(14, "indigo");
+      tm.put(18, "orange");
+      tm.put(20, "violet");
+      System.out.println("TreeMap before using containsValue() method: " + tm);
+      // checking for Value 'indigo'
+      System.out.println("Does value 'indigo' present? " + tm.containsValue("indigo"));
+      // checking for Value 'blue'
+      System.out.println("Does value 'blue' present? " + tm.containsValue("blue"));
+   }
+}
