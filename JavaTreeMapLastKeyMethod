@@ -1,0 +1,22 @@
+TreeMap lastKey() method in java
+
+[TreeMap lastKey() method in java](https://www.flowerbrackets.com/treemap-lastkey-method-in-java/)
+
+Now let’s see example on TreeMap lastKey() method.
+
+import java.util.TreeMap;
+public class TreeMapLastKeyMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      tm.put(99, "yellow");
+      tm.put(86, "violet");
+      tm.put(93, "red");
+      tm.put(36, "green");
+      tm.put(29, "blue");
+      System.out.println("Given TreeMap is: " + tm);
+      // display lastKey of TreeMap
+      System.out.println("last key is: " + tm.lastKey());
+   }
+}
