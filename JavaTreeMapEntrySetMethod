@@ -1,0 +1,24 @@
+TreeMap entrySet() method in java
+
+[TreeMap entrySet() method in java](https://www.flowerbrackets.com/treemap-entryset-method-in-java/)
+
+Now let’s see example on TreeMap entrySet() method.
+
+import java.util.TreeMap;
+public class TreeMapEntrySetMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      // map String values to Integer keys
+      tm.put(56, "mango");
+      tm.put(28, "apple");
+      tm.put(35, "banana");
+      tm.put(73, "pineapple");
+      tm.put(61, "orange");
+      // printing the TreeMap
+      System.out.println("Given TreeMap is: " + tm);
+      // use entrySet() to get set view
+      System.out.println("set view is: " + tm.entrySet());
+   }
+}
