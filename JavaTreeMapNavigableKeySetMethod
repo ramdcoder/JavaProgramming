@@ -1,0 +1,31 @@
+TreeMap navigableKeySet() method in java
+
+[TreeMap navigableKeySet() method in java](https://www.flowerbrackets.com/treemap-navigablekeyset-method-in-java/)
+
+Now let’s see example on TreeMap navigableKeySet() method.
+
+import java.util.NavigableSet;
+import java.util.TreeMap;
+public class TreeMapNavigableKeySetMethodExample
+{
+   public static void main(String[] args)
+   {
+      try
+      {
+         TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+         tm.put(11, "apple");
+         tm.put(12, "banana");
+         tm.put(13, "grapes");
+         tm.put(14, "orange");
+         tm.put(15, "pineapple");
+         System.out.println("Given TreeMap: " + tm);
+         // get NavigableSet view of keys using navigableKeySet() method
+         NavigableSet<Integer> ns = tm.navigableKeySet();
+         System.out.println("Value is: " + ns);
+      }
+      catch(NullPointerException ex)
+      {
+         System.out.println("Exception: " + ex);
+      }
+   }
+}
