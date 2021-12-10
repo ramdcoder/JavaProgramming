@@ -1,0 +1,23 @@
+TreeMap clear() method in java
+
+[TreeMap clear() method in java](https://www.flowerbrackets.com/treemap-clear-method-in-java/)
+
+Now let’s see example on TreeMap clear() method.
+
+import java.util.TreeMap;
+public class TreeMapClearMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      tm.put(8, "red");
+      tm.put(12, "blue");
+      tm.put(10, "yellow");
+      tm.put(6, "green");
+      tm.put(4, "violet");
+      System.out.println("TreeMap before using clear() method: " + tm);
+      // clearing TreeMap using clear() method
+      tm.clear();
+      System.out.println("TreeMap after using clear() method: " + tm);
+   }
+}
