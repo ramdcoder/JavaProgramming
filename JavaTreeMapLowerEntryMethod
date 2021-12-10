@@ -1,0 +1,22 @@
+TreeMap lowerEntry(K key) method in java
+
+[TreeMap lowerEntry(K key) method in java](https://www.flowerbrackets.com/treemap-lowerentry-k-key-method-in-java/)
+
+Now let’s see example on TreeMap lowerEntry(K key) method.
+
+import java.util.TreeMap;
+public class TreeMapLowerEntryMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      tm.put(7, "red");
+      tm.put(3, "green");
+      tm.put(6, "violet");
+      tm.put(5, "blue");
+      tm.put(4, "yellow");
+      // get lower entry
+      System.out.println("Check lower entry in given TreeMap");
+      System.out.println("Value is: "+ tm.lowerEntry(5));
+   }
+}
