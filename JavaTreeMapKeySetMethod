@@ -1,0 +1,22 @@
+TreeMap keySet() method in java
+
+[TreeMap keySet() method in java](https://www.flowerbrackets.com/treemap-keyset-method-in-java/)
+
+Now let’s see example on TreeMap keySet() method.
+
+import java.util.TreeMap;
+public class TreeMapKeySetMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      tm.put(53, "mango");
+      tm.put(62, "apple");
+      tm.put(29, "grapes");
+      tm.put(93, "banana");
+      tm.put(98, "watermelon");
+      System.out.println("Given TreeMap is: " + tm);
+      // use keySet() to get set view of keys
+      System.out.println("set is: " + tm.keySet());
+   }
+}
