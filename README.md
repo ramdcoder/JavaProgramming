@@ -194,3 +194,5 @@ Core java and OOPS concept
 [TreeMap descendingKeySet() method in java](https://www.flowerbrackets.com/treemap-descendingkeyset-method-in-java/)  
 
 [TreeMap descendingMap() method in java](https://www.flowerbrackets.com/treemap-descendingmap-method-in-java/)  
+
+[TreeMap entrySet() method in java](https://www.flowerbrackets.com/treemap-entryset-method-in-java/)  
