@@ -1,0 +1,22 @@
+TreeMap pollLastEntry() method in java
+
+[TreeMap pollLastEntry() method in java](https://www.flowerbrackets.com/treemap-polllastentry-method-in-java/)
+
+Now let’s see example on TreeMap pollLastEntry() method.
+
+import java.util.TreeMap;
+public class TreeMapPollLastEntryMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      tm.put(63, "yellow");
+      tm.put(95, "red");
+      tm.put(96, "green");
+      tm.put(21, "violet");
+      tm.put(28, "blue");
+      System.out.println("TreeMap before using pollLastEntry() method: " + tm);
+      System.out.println("Value is: " + tm.pollLastEntry());
+      System.out.println("TreeMap after using pollLastEntry() method: " + tm);
+   }
+}
