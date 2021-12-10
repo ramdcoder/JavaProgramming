@@ -1,0 +1,30 @@
+TreeMap higherKey() method in java
+
+[TreeMap higherKey() method in java](https://www.flowerbrackets.com/treemap-higherkey-method-in-java/)
+
+Now let’s see example on TreeMap higherKey() method.
+
+import java.util.TreeMap;
+public class TreeMapHigherKeyMethodExample
+{
+   public static void main(String[] args)
+   {
+      try
+      {
+         TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+         tm.put(6, "green");
+         tm.put(3, "violet");
+         tm.put(2, "red");
+         tm.put(8, "yellow");
+         tm.put(5, "blue");
+         System.out.println("Given TreeMap: " + tm);
+         // getting higher key value for 5 using higherKey() method
+         int value = tm.higherKey(5);
+         System.out.println("The higherKey value for 5: " + value);
+      }
+      catch(NullPointerException ex)
+      {
+         System.out.println("Exception: " + ex);
+      }
+   }
+}
