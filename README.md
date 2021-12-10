@@ -222,3 +222,5 @@ Core java and OOPS concept
 [TreeMap pollFirstEntry() method in java](https://www.flowerbrackets.com/treemap-pollfirstentry-method-in-java/)  
 
 [TreeMap pollLastEntry() method in java](https://www.flowerbrackets.com/treemap-polllastentry-method-in-java/)  
+
+[TreeMap put() method in java](https://www.flowerbrackets.com/treemap-put-method-in-java/)  
