@@ -174,3 +174,5 @@ Core java and OOPS concept
 [HashSet removeAll(Collection<?> c) method in java](https://www.flowerbrackets.com/hashset-removeall-method-in-java/)
 
 [LinkedHashSet class in java](https://www.flowerbrackets.com/linkedhashset-in-java/)  
+
+[TreeMap K firstKey() method in java](https://www.flowerbrackets.com/treemap-k-firstkey-method-in-java/)  
