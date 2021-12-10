@@ -1,0 +1,21 @@
+TreeMap floorEntry() method in java
+
+[TreeMap floorEntry() method in java](https://www.flowerbrackets.com/treemap-floorentry-method-in-java/)
+
+Now let’s see example on TreeMap floorEntry(K key) method.
+
+import java.util.TreeMap;
+public class TreeMapFloorEntryMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      tm.put(63, "orange");
+      tm.put(50, "apple");
+      tm.put(83, "watermelon");
+      tm.put(86, "banana");
+      tm.put(56, "mango");
+      System.out.println("Check floor entry for 86: ");
+      System.out.println("Value is: " + tm.floorEntry(86));
+   }
+}
