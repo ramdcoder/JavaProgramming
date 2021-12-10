@@ -1,0 +1,25 @@
+TreeMap headMap(K toKey boolean inclusive) method in java
+
+[TreeMap headMap(K toKey boolean inclusive) method in java](https://www.flowerbrackets.com/treemap-headmap-k-tokey-boolean-inclusive-method-in-java/)
+
+Now let’s see example on TreeMap headMap(K toKey, boolean inclusive) method in java.
+
+import java.util.NavigableMap;
+import java.util.TreeMap;
+public class TreeMapHeadMapBooleanInclusiveMethod
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      NavigableMap<Integer, String> nm = new TreeMap<Integer, String>();
+      tm.put(96, "violet");
+      tm.put(93, "green");
+      tm.put(20, "yellow");
+      tm.put(36, "red");
+      tm.put(53, "blue");
+      // get head map inclusive 93
+      nm = tm.headMap(93, true);
+      System.out.println("Check values of TreeMap");
+      System.out.println("Value is: " + nm);
+   }
+}
