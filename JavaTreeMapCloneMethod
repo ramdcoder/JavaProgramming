@@ -1,0 +1,26 @@
+TreeMap clone() method in java
+
+[TreeMap clone() method in java](https://www.flowerbrackets.com/treemap-clone-method-in-java/)
+
+Now let’s see example on TreeMap clone() method.
+
+import java.util.TreeMap;
+public class TreeMapCloneMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      TreeMap<Integer, String> tmClone = new TreeMap<Integer, String>();
+      tm.put(60, "apple");
+      tm.put(10, "banana");
+      tm.put(50, "cherry");
+      tm.put(30, "fig");
+      tm.put(80, "grape");
+      tm.put(90, "kiwifruit");
+      // cloning TreeMap
+      System.out.println("Cloning TreeMap: ");
+      tmClone = (TreeMap)tm.clone();
+      System.out.println("Given TreeMap: " + tm);
+      System.out.println("Cloned TreeMap: " + tmClone);
+   }
+}
