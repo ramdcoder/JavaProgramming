@@ -1,0 +1,24 @@
+TreeMap descendingKeySet() method in java
+
+[TreeMap descendingKeySet() method in java](https://www.flowerbrackets.com/treemap-descendingkeyset-method-in-java/)
+
+Now let’s see example on TreeMap descendingKeySet() method.
+
+import java.util.NavigableSet;
+import java.util.TreeMap;
+public class TreeMapDescendingKeySetMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      tm.put(63, "banana");
+      tm.put(56, "watermelon");
+      tm.put(35, "orange");
+      tm.put(83, "apple");
+      tm.put(65, "pineapple");
+      // put values in NavigableSet
+      NavigableSet ns = tm.descendingKeySet();
+      System.out.println("TreeMap values using descendingKeySet() method: ");
+      System.out.println("NavigableSet values: " + ns);
+   }
+}
