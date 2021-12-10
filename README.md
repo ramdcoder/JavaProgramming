@@ -220,3 +220,5 @@ Core java and OOPS concept
 [TreeMap navigableKeySet() method in java](https://www.flowerbrackets.com/treemap-navigablekeyset-method-in-java/)  
 
 [TreeMap pollFirstEntry() method in java](https://www.flowerbrackets.com/treemap-pollfirstentry-method-in-java/)  
+
+[TreeMap pollLastEntry() method in java](https://www.flowerbrackets.com/treemap-polllastentry-method-in-java/)  
