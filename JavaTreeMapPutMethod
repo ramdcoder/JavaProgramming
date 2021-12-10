@@ -1,0 +1,23 @@
+TreeMap put() method in java
+
+[TreeMap put() method in java](https://www.flowerbrackets.com/treemap-put-method-in-java/)
+
+Now let’s see example on TreeMap put() method.
+
+import java.util.TreeMap;
+public class TreeMapPutMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      tm.put(32, "pineapple");
+      tm.put(51, "watermelon");
+      tm.put(38, "grapes");
+      tm.put(69, "mango");
+      tm.put(58, "apple");
+      // put value at key 3
+      System.out.println("TreeMap before using put(K key, V value) method: " + tm);
+      System.out.println("Value is: " + tm.put(38, "banana"));
+      System.out.println("TreeMap after using put(K key, V value) method: " + tm);
+   }
+}
