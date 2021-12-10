@@ -216,3 +216,5 @@ Core java and OOPS concept
 [TreeMap lowerEntry(K key) method in java](https://www.flowerbrackets.com/treemap-lowerentry-k-key-method-in-java/)  
 
 [TreeMap lowerKey(K key) method in java](https://www.flowerbrackets.com/treemap-lowerkey-k-key-method-in-java/)  
+
+[TreeMap navigableKeySet() method in java](https://www.flowerbrackets.com/treemap-navigablekeyset-method-in-java/)  
