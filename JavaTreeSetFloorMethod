@@ -1,0 +1,30 @@
+TreeSet floor(E e) method in java
+
+[TreeSet floor(E e) method in java](https://www.flowerbrackets.com/treeset-floor-method-in-java/)
+
+Now let’s see example on TreeSet floor() method.
+
+import java.util.TreeSet;
+public class TreeSetFloorMethodExample
+{
+   public static void main(String[] args)
+   {
+      try
+      {
+         TreeSet<Integer> ts = new TreeSet<Integer>();
+         ts.add(50);
+         ts.add(60);
+         ts.add(70);
+         ts.add(80);
+         System.out.println("Given TreeSet: " + ts);
+         // get floor value for 65 using floor() method
+         int value = ts.floor(65);
+         // print floor value
+         System.out.println("Floor value for 65 is : " + value);
+      }
+      catch(NullPointerException ex)
+      {
+         System.out.println("Exception: " + ex);
+      }
+   }
+}
