@@ -1,0 +1,24 @@
+TreeMap subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive) method in java
+
+[TreeMap subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive) method in java](https://www.flowerbrackets.com/treemap-submap-method-in-java/)
+
+Now let’s see example on TreeMap subMap() method in java.
+
+import java.util.NavigableMap;
+import java.util.TreeMap;
+public class TreeMapSubMapMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      NavigableMap<Integer, String> nm = new TreeMap<Integer, String>();
+      tm.put(18, "violet");
+      tm.put(12, "red");
+      tm.put(14, "violet");
+      tm.put(16, "green");
+      tm.put(20, "blue");
+      System.out.println("Get a portion of TreeMap: ");
+      nm = tm.subMap(12, true, 18, true);
+      System.out.println("Sub map values are: " + nm);
+   }
+}
