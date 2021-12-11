@@ -1,0 +1,24 @@
+TreeMap subMap(K fromKey, K toKey) method in java
+
+[TreeMap subMap(K fromKey, K toKey) method in java](https://www.flowerbrackets.com/treemap-submap-k-fromkey-k-tokey-method-in-java/)
+
+Now let’s see example on TreeMap subMap(K fromKey, K toKey) method in java.
+
+import java.util.SortedMap;
+import java.util.TreeMap;
+public class TreeMapSubMapFromKeyMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      SortedMap<Integer, String> sm = new TreeMap<Integer, String>();
+      tm.put(18, "violet");
+      tm.put(12, "red");
+      tm.put(14, "violet");
+      tm.put(16, "green");
+      tm.put(20, "blue");
+      System.out.println("Gett a portion of TreeMap: ");
+      sm = tm.subMap(12, 18);
+      System.out.println("Sub map values are: " + sm);
+   }
+}
