@@ -1,0 +1,24 @@
+TreeMap putAll(Map<? extends K,? extends V> map) method in java
+
+[TreeMap putAll(Map<? extends K,? extends V> map) method in java](https://www.flowerbrackets.com/treemap-putall-method-in-java/)
+
+Now let’s see example on TreeMap putAll(Map<? extends K,? extends V> map) method.
+
+import java.util.TreeMap;
+public class TreeMapPutAllMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm1 = new TreeMap<Integer, String>();
+      tm1.put(32, "pineapple");
+      tm1.put(51, "watermelon");
+      tm1.put(38, "grapes");
+      tm1.put(69, "mango");
+      tm1.put(58, "apple");
+      System.out.println("TreeMap before using putAll() method: " + tm1);
+      // create new TreeMap and copy
+      TreeMap<Integer, String> tm2 = new TreeMap<Integer, String>();
+      tm2.putAll(tm1);
+      System.out.println("TreeMap after using putAll() method: " + tm2);
+   }
+}
