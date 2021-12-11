@@ -1,0 +1,27 @@
+TreeSet isEmpty() method in java
+
+[TreeSet isEmpty() method in java](https://www.flowerbrackets.com/treeset-isempty-method-in-java/)
+
+Now let’s see example on TreeSet isEmpty() method.
+
+import java.util.TreeSet;
+public class TreeSetIsEmptyMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeSet<String> ts = new TreeSet<String>();
+      ts.add("violet");
+      ts.add("green");
+      ts.add("red");
+      ts.add("yellow");
+      ts.add("blue");
+      ts.add("indigo");
+      System.out.println("Given TreeSet: " + ts);
+      // check for empty TreeSet
+      System.out.println("Is TreeSet empty? " + ts.isEmpty());
+      // clear TreeSet using clear() method
+      ts.clear();
+      // again check for empty TreeSet
+      System.out.println("Is TreeSet empty? " + ts.isEmpty());
+   }
+}
