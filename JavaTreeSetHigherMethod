@@ -1,0 +1,21 @@
+TreeSet higher(E e) method in java
+
+[TreeSet higher(E e) method in java](https://www.flowerbrackets.com/treeset-higher-method-in-java/)
+
+Now let’s see example on TreeSet higher() method.
+
+import java.util.TreeSet;
+public class TreeSetHigherMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeSet<Integer> ts = new TreeSet<Integer>();
+      ts.add(9);
+      ts.add(4);
+      ts.add(6);
+      ts.add(2);
+      ts.add(10);
+      ts.add(3);
+      System.out.println(ts.higher(9));
+   }
+}
