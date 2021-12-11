@@ -1,0 +1,30 @@
+TreeSet ceiling(E e) method in java
+
+[TreeSet ceiling(E e) method in java](https://www.flowerbrackets.com/treeset-ceiling-method-in-java/)
+
+Now let’s see example on TreeSet ceiling() method.
+
+import java.util.TreeSet;
+public class TreeSetCeilingMethodExample
+{
+   public static void main(String[] args)
+   {
+      try
+      {
+         TreeSet<Integer> ts = new TreeSet<Integer>();
+         ts.add(50);
+         ts.add(60);
+         ts.add(70);
+         ts.add(80);
+         System.out.println("TreeSet values: " + ts);
+         // get ceiling value for 65 using ceiling() method
+         int value = ts.ceiling(65);
+         // print the ceiling value
+         System.out.println("Ceiling value for 65: " + value);
+      }
+      catch(NullPointerException ex)
+      {
+         System.out.println("Exception: " + ex);
+      }
+   }
+}
