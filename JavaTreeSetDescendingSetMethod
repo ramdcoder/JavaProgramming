@@ -1,0 +1,36 @@
+TreeSet descendingSet() method in java
+
+[TreeSet descendingSet() method in java](https://www.flowerbrackets.com/treeset-descendingset-method-in-java/)
+
+Now let’s see example on TreeSet descendingSet() method.
+
+import java.util.Iterator;
+import java.util.NavigableSet;
+import java.util.TreeSet;
+public class TreeSetDescendingSetMethodExample
+{
+   public static void main(String[] args)
+   {
+      try
+      {
+         TreeSet<String> ts = new TreeSet<String>();
+         ts.add("Apple");
+         ts.add("Banana");
+         ts.add("Cherry");
+         ts.add("Dragon Fruit");
+         System.out.println("TreeSet: " + ts);
+         // reverse order view of element using descendingSet() method
+         NavigableSet<String> ns = ts.descendingSet();
+         Iterator<String> iterate = ns.iterator();
+         System.out.println("Values using descendingSet() method: ");
+         while(iterate.hasNext())
+         {
+            System.out.println(iterate.next());
+         }
+      }
+      catch(NullPointerException ex)
+      {
+         System.out.println("Exception: " + ex);
+      }
+   }
+}
