@@ -262,3 +262,5 @@ Core java and OOPS concept
 [TreeSet higher(E e) method in java](https://www.flowerbrackets.com/treeset-higher-method-in-java/)
 
 [TreeSet isEmpty() method in java](https://www.flowerbrackets.com/treeset-isempty-method-in-java/)
+
+[TreeSet iterator() method in java](https://www.flowerbrackets.com/treeset-iterator-method-in-java/)
