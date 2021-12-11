@@ -1,0 +1,25 @@
+TreeSet clear() method in java
+
+[TreeSet clear() method in java](https://www.flowerbrackets.com/treeset-clear-method-in-java/)
+
+Now let’s see example on TreeSet clear() method.
+
+import java.util.TreeSet;
+public class TreeSetClearMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeSet<String> ts = new TreeSet<String>();
+      ts.add("grapes");
+      ts.add("apple");
+      ts.add("mango");
+      ts.add("banana");
+      ts.add("orange");
+      ts.add("pineapple");
+      System.out.println("TreeSet before using clear() method: " + ts);
+      // clear TreeSet using clear() method
+      ts.clear();
+      // print final TreeSet
+      System.out.println("TreeSet after using clear() method: " + ts);
+   }
+}
