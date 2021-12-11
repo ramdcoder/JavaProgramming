@@ -250,3 +250,5 @@ Core java and OOPS concept
 [TreeSet descendingIterator() method in java](https://www.flowerbrackets.com/treeset-descendingiterator-method-in-java/)
 
 [TreeSet descendingSet() method in java](https://www.flowerbrackets.com/treeset-descendingset-method-in-java/)
+
+[TreeSet clone() method in java](https://www.flowerbrackets.com/treeset-clone-method-in-java/)
