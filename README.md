@@ -240,3 +240,5 @@ Core java and OOPS concept
 [TreeMap tailMap(K fromKey, boolean inclusive) method in java](https://www.flowerbrackets.com/treemap-tailmap-k-fromkey-boolean-inclusive-method-in-java/)
 
 [TreeSet add(E e) method in java](https://www.flowerbrackets.com/treeset-add-method-in-java/)
+
+[TreeSet addAll(Collection<? extends E> c) method in java](https://www.flowerbrackets.com/treeset-addall-method-in-java/)
