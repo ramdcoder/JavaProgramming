@@ -260,3 +260,5 @@ Core java and OOPS concept
 [TreeSet comparator(? super E) method in java](https://www.flowerbrackets.com/treeset-comparator-method-in-java/)
 
 [TreeSet higher(E e) method in java](https://www.flowerbrackets.com/treeset-higher-method-in-java/)
+
+[TreeSet isEmpty() method in java](https://www.flowerbrackets.com/treeset-isempty-method-in-java/)
