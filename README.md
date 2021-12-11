@@ -234,3 +234,5 @@ Core java and OOPS concept
 [TreeMap subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive) method in java](https://www.flowerbrackets.com/treemap-submap-method-in-java/)
 
 [TreeMap subMap(K fromKey, K toKey) method in java](https://www.flowerbrackets.com/treemap-submap-k-fromkey-k-tokey-method-in-java/)
+
+[TreeMap tailMap(K fromKey) method in java](https://www.flowerbrackets.com/treemap-tailmap-k-fromkey-method-in-java/)
