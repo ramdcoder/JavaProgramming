@@ -1,0 +1,24 @@
+TreeMap tailMap(K fromKey, boolean inclusive) method in java
+
+[TreeMap tailMap(K fromKey, boolean inclusive) method in java](https://www.flowerbrackets.com/treemap-tailmap-k-fromkey-boolean-inclusive-method-in-java/)
+
+Now let’s see example on TreeMap tailMap(K fromKey, boolean inclusive) method in java.
+
+import java.util.SortedMap;
+import java.util.TreeMap;
+public class TreeMapTailMapBooleanMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      SortedMap<Integer, String> sm = new TreeMap<Integer, String>();
+      tm.put(18, "violet");
+      tm.put(12, "red");
+      tm.put(14, "violet");
+      tm.put(16, "green");
+      tm.put(20, "blue");
+      System.out.println("Get tail map of TreeMap: ");
+      sm = tm.tailMap(12, true);
+      System.out.println("Tail map values are: " + sm);
+   }
+}
