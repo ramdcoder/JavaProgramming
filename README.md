@@ -246,3 +246,5 @@ Core java and OOPS concept
 [TreeSet ceiling(E e) method in java](https://www.flowerbrackets.com/treeset-ceiling-method-in-java/)
 
 [TreeSet clear() method in java](https://www.flowerbrackets.com/treeset-clear-method-in-java/)
+
+[TreeSet descendingIterator() method in java](https://www.flowerbrackets.com/treeset-descendingiterator-method-in-java/)
