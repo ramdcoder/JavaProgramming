@@ -1,0 +1,34 @@
+TreeSet addAll(Collection<? extends E> c) method in java
+
+[TreeSet addAll(Collection<? extends E> c) method in java](https://www.flowerbrackets.com/treeset-addall-method-in-java/)
+
+Now let’s see example on TreeSet addAll(Collection<? extends E> c) method.
+
+import java.util.Iterator;
+import java.util.TreeSet;
+public class TreeSetAddAllMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeSet<Integer> ts1 = new TreeSet<Integer>();
+      TreeSet<Integer> ts2 = new TreeSet<Integer>();
+      // add in TreeSet ts1
+      ts1.add(23);
+      ts1.add(24);
+      ts1.add(25);
+      // add in TreeSet ts2
+      ts2.add(26);
+      ts2.add(27);
+      ts2.add(28);
+      // add ts2 to ts1
+      ts1.addAll(ts2);
+      // create an iterator
+      Iterator<Integer> iterate = ts1.iterator();
+      // displaying the Tree set data
+      System.out.print("TreeSet values: ");
+      while(iterate.hasNext())
+      {
+         System.out.print(iterate.next() + " ");
+      }
+   }
+}
