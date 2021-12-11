@@ -226,3 +226,5 @@ Core java and OOPS concept
 [TreeMap put() method in java](https://www.flowerbrackets.com/treemap-put-method-in-java/)  
 
 [TreeMap putAll(Map<? extends K,? extends V> map) method in java](https://www.flowerbrackets.com/treemap-putall-method-in-java/)  
+
+[TreeMap remove(Object key) method in java](https://www.flowerbrackets.com/treemap-remove-object-key-method-in-java/)
