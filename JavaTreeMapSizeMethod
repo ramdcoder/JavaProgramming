@@ -1,0 +1,21 @@
+TreeMap size() method in java
+
+[TreeMap size() method in java](https://www.flowerbrackets.com/treemap-size-method-in-java/)
+
+Now let’s learn example on TreeMap size() method.
+
+import java.util.TreeMap;
+public class TreeMapSizeMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      tm.put(32, "pineapple");
+      tm.put(51, "watermelon");
+      tm.put(38, "grapes");
+      tm.put(69, "mango");
+      tm.put(58, "apple");
+      System.out.println("Given TreeMap is: " + tm);
+      System.out.println("size of TreeMap is: " + tm.size());
+   }
+}
