@@ -1,0 +1,21 @@
+TreeSet add(E e) method in java
+
+[TreeSet add(E e) method in java](https://www.flowerbrackets.com/treeset-add-method-in-java/)
+
+Now let’s see example on TreeSet add(E e) method.
+
+import java.util.TreeSet;
+public class TreeSetAddMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeSet<String> ts = new TreeSet<String>();
+      ts.add("yellow");
+      ts.add("orange");
+      ts.add("green");
+      ts.add("red");
+      ts.add("blue");
+      ts.add("violet");
+      System.out.println("TreeSet: " + ts);
+   }
+}
