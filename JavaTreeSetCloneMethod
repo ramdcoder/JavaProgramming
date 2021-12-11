@@ -1,0 +1,27 @@
+TreeSet clone() method in java
+
+[TreeSet clone() method in java](https://www.flowerbrackets.com/treeset-clone-method-in-java/)
+
+Now let’s see example on TreeSet clone() method.
+
+import java.util.TreeSet;
+public class TreeSetCloneMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeSet<String> ts = new TreeSet<String>();
+      ts.add("green");
+      ts.add("blue");
+      ts.add("yellow");
+      ts.add("red");
+      ts.add("violet");
+      ts.add("orange");
+      System.out.println("TreeSet: " + ts);
+      // create a new cloned TreeSet
+      TreeSet<String> treeCloned = new TreeSet<String>();
+      // clone TreeSet using clone() method
+      treeCloned = (TreeSet)ts.clone();
+      // print cloned TreeSet
+      System.out.println("cloned TreeSet: " + treeCloned);
+   }
+}
