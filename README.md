@@ -256,3 +256,5 @@ Core java and OOPS concept
 [TreeSet contains(Object o) method in java](https://www.flowerbrackets.com/treeset-contains-object-o-method-in-java/)
 
 [TreeSet floor(E e) method in java](https://www.flowerbrackets.com/treeset-floor-method-in-java/)
+
+[TreeSet comparator(? super E) method in java](https://www.flowerbrackets.com/treeset-comparator-method-in-java/)
