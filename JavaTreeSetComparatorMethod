@@ -1,0 +1,35 @@
+TreeSet comparator(? super E) method in java
+
+[TreeSet comparator(? super E) method in java](https://www.flowerbrackets.com/treeset-comparator-method-in-java/)
+
+Now let’s see example on TreeSet comparator() method.
+
+import java.util.TreeSet;
+public class TreeSetComparatorMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeSet<Integer> ts = new TreeSet<Integer>();
+      TreeSet<Integer> comp = new TreeSet<Integer>();
+      ts.add(5);
+      ts.add(6);
+      ts.add(7);
+      ts.add(8);
+      ts.add(9);
+      ts.add(10);
+      // use comparator
+      comp = (TreeSet)ts.comparator();
+      if(comp != null)
+      {
+         for(Integer element : comp)
+         {
+            System.out.println(element + " ");
+         }
+      }
+      else
+      {
+         System.out.println("TreeSet comparator value: " + comp);
+         System.out.println("Hence it is using natural ordering.");
+      }
+   }
+}
