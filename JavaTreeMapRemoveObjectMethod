@@ -1,0 +1,24 @@
+TreeMap remove(Object key) method in java
+
+[TreeMap remove(Object key) method in java](https://www.flowerbrackets.com/treemap-remove-object-key-method-in-java/)
+
+Now let’s see example on TreeMap remove(Object key) method.
+
+import java.util.TreeMap;
+public class TreeMapRemoveMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeMap<Integer, String> tm = new TreeMap<Integer, String>();
+      tm.put(32, "pineapple");
+      tm.put(51, "watermelon");
+      tm.put(38, "grapes");
+      tm.put(69, "mango");
+      tm.put(58, "apple");
+      System.out.println("Given TreeMap is: " + tm);
+      // remove existing key mapping
+      String strReturn = (String)tm.remove(38);
+      System.out.println("Returned value is: " + strReturn);
+      System.out.println("New TreeMap is: " + tm);
+   }
+}
