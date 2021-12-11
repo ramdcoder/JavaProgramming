@@ -1,0 +1,27 @@
+TreeSet iterator() method in java
+
+[TreeSet iterator() method in java](https://www.flowerbrackets.com/treeset-iterator-method-in-java/)
+
+Now let’s see example on TreeSet iterator() method.
+
+import java.util.Iterator;
+import java.util.TreeSet;
+public class TreeSetIteratorMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeSet<Integer> ts = new TreeSet<Integer>();
+      ts.add(23);
+      ts.add(52);
+      ts.add(63);
+      ts.add(21);
+      // create ascending iterator
+      Iterator<Integer> iterate = ts.iterator();
+      // print TreeSet
+      System.out.println("TreeSet in ascending order: ");
+      while(iterate.hasNext())
+      {
+         System.out.println(iterate.next() + " ");
+      }
+   }
+}
