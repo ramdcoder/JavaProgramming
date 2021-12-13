@@ -280,3 +280,5 @@ Core java and OOPS concept
 [TreeSet tailSet(E fromElement) method in java](https://www.flowerbrackets.com/treeset-tailset-method-in-java/)
 
 [TreeSet tailSet(E fromElement, boolean inclusive) method in java](https://www.flowerbrackets.com/treeset-tailset-fromelement-inclusive-method-in-java/)
+
+[TreeSet headSet(E toElement, boolean inclusive) method in java](https://www.flowerbrackets.com/treeset-headset-toelement-inclusive-method-in-java/)
