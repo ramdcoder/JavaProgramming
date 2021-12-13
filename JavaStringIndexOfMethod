@@ -1,0 +1,30 @@
+String indexOf(String str, int fromIndex) method in java
+
+[String indexOf(String str, int fromIndex) method in java](https://www.flowerbrackets.com/string-indexof-string-str-int-fromindex-method-in-java/)
+
+Now let’s see example on String indexOf(String str, int fromIndex) method.
+
+import java.util.*;
+public class StringIndexOfMethodExample
+{
+   public static void main(String[] args)
+   {
+      String strInput = new String("hello world core java");
+      String strSub = new String("core");
+      System.out.print("Index found: " );
+      System.out.println(strInput.indexOf(strSub, 3));
+   }
+}
+
+Now let’s see another example where substring is present in sequence but search index is greater than index of substring.
+
+public class StringIndexOfMethodExample
+{
+   public static void main(String[] args)
+   {
+      String strInput = new String("hello world core java");
+      String strSub = new String("core");
+      System.out.print("Index found: " );
+      System.out.println(strInput.indexOf(strSub, 16));
+   }
+}
