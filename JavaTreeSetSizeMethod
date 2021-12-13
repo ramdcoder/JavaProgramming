@@ -1,0 +1,23 @@
+TreeSet size() method in java
+
+[TreeSet size() method in java](https://www.flowerbrackets.com/treeset-size-method-in-java/)
+
+Now let’s see example on TreeSet size() method.
+
+import java.util.TreeSet;
+public class TreeSetSizeMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeSet<String> ts = new TreeSet<String>();
+      ts.add("watermelon");
+      ts.add("apple");
+      ts.add("banana");
+      ts.add("grapes");
+      ts.add("mango");
+      ts.add("orange");
+      System.out.println("Given TreeSet: " + ts);
+      // print size of TreeSet
+      System.out.println("size of TreeSet is: " + ts.size());
+   }
+}
