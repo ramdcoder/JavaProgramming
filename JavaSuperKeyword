@@ -1,0 +1,31 @@
+Super keyword in java
+
+[Super keyword in java](https://www.flowerbrackets.com/super-keyword-in-java/)
+
+Super keyword is the reference variable which is used to refer immediate parent class object.
+
+In the below example super keyword is used to access member of parent class.Here super keyword is used only if parent class and child class have same members or fields.
+
+class Car
+{
+   String color = "white";  
+} 
+class Audi extends Car
+{
+   String color = "green";  
+   void printColor()
+   {
+      // prints color of Audi class
+      System.out.println(color);  
+      // prints color of Car class
+      System.out.println(super.color);  
+   }
+}
+public class TestSuperKeyword
+{
+   public static void main(String[] args)
+   {
+      Audi obj = new Audi();
+      obj.printColor();
+   }
+}
