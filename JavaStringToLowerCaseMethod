@@ -1,0 +1,31 @@
+String toLowerCase(Locale locale) method in java
+
+[String toLowerCase(Locale locale) method in java](https://www.flowerbrackets.com/string-tolowercase-locale-method-in-java/)
+
+Now let’s see example on String toLowerCase() method.
+
+import java.util.*;
+public class StringToLowerCaseMethodExample
+{
+   public static void main(String[] args)
+   {
+      String str = "HELLOWORLD CORE jAva";
+      String strLower = str.toLowerCase();
+      System.out.println(strLower);
+   }
+}
+
+Now let’s see example on String toLowerCase(Locale locale) method.
+
+import java.util.Locale;
+public class StringToLowerCaseMethodExample
+{
+   public static void main(String[] args)
+   {
+      String str = "HELLOWORLD sTrInG";
+      String strEnglish = str.toLowerCase(Locale.ENGLISH);
+      System.out.println(strEnglish);
+      String strTurkish = str.toLowerCase(Locale.forLanguageTag("tr"));
+      System.out.println(strTurkish);
+   }
+}
