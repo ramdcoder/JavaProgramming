@@ -272,3 +272,5 @@ Core java and OOPS concept
 [TreeSet remove(Object o) method in java](https://www.flowerbrackets.com/treeset-remove-method-in-java/)
 
 [TreeSet size() method in java](https://www.flowerbrackets.com/treeset-size-method-in-java/)
+
+[TreeSet subSet(E fromElement, boolean fromInclusive, E toElement, boolean toInclusive) method in java](https://www.flowerbrackets.com/treeset-subset-method-in-java/)
