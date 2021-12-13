@@ -1,0 +1,27 @@
+TreeSet remove(Object o) method in java
+
+[TreeSet remove(Object o) method in java](https://www.flowerbrackets.com/treeset-remove-method-in-java/)
+
+Now let’s see example on TreeSet remove(Object o) method.
+
+import java.util.TreeSet;
+public class TreeSetRemoveMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeSet<String> ts = new TreeSet<String>();
+      ts.add("orange");
+      ts.add("green");
+      ts.add("blue");
+      ts.add("red");
+      ts.add("violet");
+      ts.add("yellow");
+      System.out.println("Given TreeSet: " + ts);
+      // remove elements using remove() method
+      ts.remove("blue");
+      ts.remove("violet");
+      ts.remove("red");
+      // print TreeSet after removal
+      System.out.println("New TreeSet: " + ts);
+   }
+}
