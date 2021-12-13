@@ -1,0 +1,15 @@
+How to compile and run java program
+
+[How to compile and run java program](https://www.flowerbrackets.com/how-to-compile-java-programs/)
+
+Step one: open text editor like notepad on windows, copy below java code and paste it on text editor.
+
+public class CompileJavaProgram
+{
+   public static void main(String[] args)
+   {
+      System.out.println("hello world java");
+   }
+}
+
+Click here [How to compile and run java program](https://www.flowerbrackets.com/how-to-compile-java-programs/) for more.
