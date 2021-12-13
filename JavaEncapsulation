@@ -1,0 +1,56 @@
+Encapsulation in java
+
+[Encapsulation in java](https://www.flowerbrackets.com/encapsulation-in-java-programs/)
+
+What is Encapsulation?
+
+Encapsulation is a procedure of binding data(variables) and methods together into a single unit.
+
+Encapsulation is one of the four fundamental Object Oriented Programming(OOPS) concept. Other three oops concept are polymorphism, inheritance and abstraction.
+
+Let’s see an example for encapsulation in java.
+
+class EncapsulationExample
+{
+   private int ID;
+   private String stuName;
+   private int stuAge;
+   // getter and setter methods
+   public int getStudentID()
+   {
+      return ID;
+   }
+   public String getStudentName()
+   {
+      return stuName;
+   }
+   public int getStudentAge()
+   {
+      return stuAge;
+   }
+   public void setStudentAge(int number)
+   {
+      stuAge = number;
+   }
+   public void setStudentName(String number)
+   {
+      stuName = number;
+   }
+   public void setStudentID(int number)
+   {
+      ID = number;
+   }
+}
+public class ExampleForEncapsulation
+{
+   public static void main(String[] args)
+   {
+      EncapsulationExample student = new EncapsulationExample();
+      student.setStudentName("Virat");
+      student.setStudentAge(5);
+      student.setStudentID(2353);
+      System.out.println("Student Name: " + student.getStudentName());
+      System.out.println("Student ID: " + student.getStudentID());
+      System.out.println("Student Age: " + student.getStudentAge());
+   }
+}
