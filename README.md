@@ -292,3 +292,5 @@ Core java and OOPS concept
 [Super keyword in java](https://www.flowerbrackets.com/super-keyword-in-java/)
 
 [How to compile and run java program](https://www.flowerbrackets.com/how-to-compile-java-programs/)
+
+[Encapsulation in java](https://www.flowerbrackets.com/encapsulation-in-java-programs/)
