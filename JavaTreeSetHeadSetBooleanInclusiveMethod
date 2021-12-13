@@ -1,0 +1,39 @@
+TreeSet headSet(E toElement, boolean inclusive) method in java
+
+[TreeSet headSet(E toElement, boolean inclusive) method in java](https://www.flowerbrackets.com/treeset-headset-toelement-inclusive-method-in-java/)
+
+Now let’s see example on TreeSet headSet(E toElement, boolean inclusive) method.
+
+import java.util.Iterator;
+import java.util.TreeSet;
+public class TreeSetHeadSetMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeSet<Integer> ts = new TreeSet<Integer>();
+      TreeSet<Integer> hs = new TreeSet<Integer>();
+      ts.add(1);
+      ts.add(2);
+      ts.add(3);
+      ts.add(4);
+      ts.add(5);
+      ts.add(6);
+      // get values for 5 inclusive true
+      hs = (TreeSet)ts.headSet(5, true);
+      // create iterator
+      Iterator<Integer> iterate = hs.iterator();
+      System.out.println("TreeSet data for '5' inclusive TRUE: ");
+      while(iterate.hasNext())
+      {
+         System.out.println(iterate.next() + " ");
+      }
+      // get values for 5 inclusive false
+      hs = (TreeSet)ts.headSet(5, false);
+      iterate = hs.iterator();
+      System.out.println("TreeSet data for '5' inclusive FALSE: ");
+      while(iterate.hasNext())
+      {
+         System.out.println(iterate.next() + " ");
+      }
+   }
+}
