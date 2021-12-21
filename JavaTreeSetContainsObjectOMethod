@@ -1,0 +1,27 @@
+TreeSet contains(Object o) method in java
+
+[TreeSet contains(Object o) method in java](https://www.flowerbrackets.com/treeset-contains-object-o-method-in-java/)
+
+Now let’s see example on TreeSet contains(Object o) method.
+
+import java.util.TreeSet;
+public class TreeSetContainsObjectMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeSet<String> ts = new TreeSet<String>();
+      ts.add("mango");
+      ts.add("grapes");
+      ts.add("apple");
+      ts.add("banana");
+      ts.add("orange");
+      ts.add("pineapple");
+      System.out.println("TreeSet: " + ts);
+      // check for "apple"
+      System.out.println("Does TreeSet contains 'apple'? " + ts.contains("apple"));
+      // check for "grapes"
+      System.out.println("Does TreeSet contains 'grapes'? " + ts.contains("grapes"));
+      // check for "red"
+      System.out.println("Does TreeSet contains 'red'? " + ts.contains("red"));
+   }
+}
