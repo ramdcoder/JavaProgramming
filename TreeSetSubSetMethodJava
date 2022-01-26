@@ -1,0 +1,44 @@
+TreeSet subSet() method in java
+
+[TreeSet subSet() method in java](https://www.flowerbrackets.com/treeset-subset-method-in-java/)
+
+Now let’s see example on TreeSet subSet() method.
+
+import java.util.Iterator;
+import java.util.TreeSet;
+public class TreeSetSubSetMethodExample
+{
+   public static void main(String[] args)
+   {
+      TreeSet<Integer> ts = new TreeSet<Integer>();
+      TreeSet<Integer> sub = new TreeSet<Integer>();
+      ts.add(11);
+      ts.add(22);
+      ts.add(33);
+      ts.add(44);
+      ts.add(55);
+      ts.add(66);
+      ts.add(77);
+      ts.add(88);
+      // creating subset
+      sub = (TreeSet)ts.subSet(22, true, 77, true);
+      // create iterator
+      Iterator<Integer> iterate = sub.iterator();
+      System.out.println("TreeSet subset: ");
+      while(iterate.hasNext())
+      {
+         System.out.println(iterate.next() + " ");
+      }
+   }
+}
+
+
+Output:
+
+TreeSet subset:
+22
+33
+44
+55
+66
+77
