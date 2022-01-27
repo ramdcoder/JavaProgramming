@@ -1,0 +1,27 @@
+Java delete file
+
+[Java delete file](https://www.flowerbrackets.com/java-delete-file/)
+
+Here’s the program to delete a file.
+
+import java.io.File;
+public class JavaDeleteFileExample 
+{
+   public static void main(String[] args)
+   {
+      File fl = new File("demo.txt");
+      if(fl.delete())
+      {
+         System.out.println(fl.getName() + " file deleted.");
+      }
+      else
+      {
+         System.out.println("Failed to delete file.");
+      }
+   }
+}
+
+
+Output:
+
+demo.txt file deleted
