@@ -302,3 +302,5 @@ Core java and OOPS concept
 [Year isLeap() method in java with example](https://www.flowerbrackets.com/year-isleap-method-in-java-with-example/)
 
 [Java delete file](https://www.flowerbrackets.com/java-delete-file/)
+
+[Break statement in java](https://www.flowerbrackets.com/break-statement-in-java/)
