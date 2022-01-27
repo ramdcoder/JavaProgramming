@@ -300,3 +300,5 @@ Core java and OOPS concept
 [TreeSet subSet() method in java](https://www.flowerbrackets.com/treeset-subset-method-in-java/)
 
 [Year isLeap() method in java with example](https://www.flowerbrackets.com/year-isleap-method-in-java-with-example/)
+
+[Java delete file](https://www.flowerbrackets.com/java-delete-file/)
