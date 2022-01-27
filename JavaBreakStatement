@@ -1,0 +1,27 @@
+Break statement in java
+
+[Break statement in java](https://www.flowerbrackets.com/break-statement-in-java/)
+
+Let’s see an example on break statement.
+
+public class BreakStatementExample
+{
+   public static void main(String[] args) 
+   {
+      for(int a = 1; a <= 10; a++)
+      {
+         if(a == 3)
+         {  
+            // breaking loop  
+            break;  
+         }  
+         System.out.println(a);  
+      }
+   }
+}
+
+
+Output:
+
+1
+2
