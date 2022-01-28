@@ -304,3 +304,5 @@ Core java and OOPS concept
 [Java delete file](https://www.flowerbrackets.com/java-delete-file/)
 
 [Break statement in java](https://www.flowerbrackets.com/break-statement-in-java/)
+
+[String charAt() method in java](https://www.flowerbrackets.com/string-charat-method-in-java/)
