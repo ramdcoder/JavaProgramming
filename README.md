@@ -308,3 +308,5 @@ Core java and OOPS concept
 [String charAt() method in java](https://www.flowerbrackets.com/string-charat-method-in-java/)
 
 [Why is string immutable in java](https://www.flowerbrackets.com/why-string-is-immutable-in-java/)
+
+[Delete a directory recursively in java 8](https://www.flowerbrackets.com/delete-a-directory-recursively-in-java-8/)
