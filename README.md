@@ -306,3 +306,5 @@ Core java and OOPS concept
 [Break statement in java](https://www.flowerbrackets.com/break-statement-in-java/)
 
 [String charAt() method in java](https://www.flowerbrackets.com/string-charat-method-in-java/)
+
+[Why is string immutable in java](https://www.flowerbrackets.com/why-string-is-immutable-in-java/)
