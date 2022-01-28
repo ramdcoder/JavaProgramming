@@ -1,0 +1,26 @@
+String charAt() method in java
+
+[String charAt() method in java](https://www.flowerbrackets.com/string-charat-method-in-java/)
+
+Now let’s see string charat method example.
+
+public class StringCharAtMethodJava
+{
+   public static void main(String[] args)
+   {
+      String strInput = "HelloWorldJava";
+      char ch1 = strInput.charAt(1);
+      char ch2 = strInput.charAt(6);
+      char ch3 = strInput.charAt(10);
+      System.out.println("Character at 1st index is: " + ch1);
+      System.out.println("Character at 6th index is: " + ch2);
+      System.out.println("Character at 10th index is: " + ch3);
+   }
+}
+
+
+Output:
+
+Character at 1st index is: e
+Character at 6th index is: o
+Character at 10th index is: J
