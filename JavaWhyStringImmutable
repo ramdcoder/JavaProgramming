@@ -1,0 +1,26 @@
+Why is string immutable in java
+
+[Why is string immutable in java](https://www.flowerbrackets.com/why-string-is-immutable-in-java/)
+
+Let’s see an example on why string is immutable in java.
+
+public class ImmutableStringExample
+{
+   public static void main(String[] args)
+   {
+      // string literal
+      String str = "Hello";
+      System.out.println(str);
+      str = str.concat(" world");
+      System.out.println(str);
+      str = str.concat(" java");
+      System.out.println(str);
+   }
+}
+
+
+Output:
+
+Hello
+Hello world
+Hello world java
