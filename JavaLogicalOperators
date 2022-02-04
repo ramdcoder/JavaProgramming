@@ -1,0 +1,22 @@
+Logical operators in java
+
+[Logical operators in java](https://www.flowerbrackets.com/logical-operators-in-java/)
+
+Logical operators combine more than two conditions which returns boolean output. Logical operators are very similar to OR gate and AND gate in digital electronics.
+
+Below are logical operators,
+
+Logical AND (&&) operator
+Logical OR (||) operator
+Logical NOT (!) operator
+
+Let’s see java program on Logical AND (&&) operator.
+
+public class LogicalANDOperator 
+{
+   public static void main(String[] args) 
+   {
+      System.out.println((40 > 20) && (70 > 50));
+      System.out.println((30 > 10) && (60 < 40));
+   }
+}
