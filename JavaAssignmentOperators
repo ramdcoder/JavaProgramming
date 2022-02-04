@@ -1,0 +1,20 @@
+Assignment operators in java
+
+[Assignment operators in java](https://www.flowerbrackets.com/assignment-operators-in-java/)
+
+Assignment operators are used to assign some value to variable. It’s a combination of left and right hand side operand.
+
+Let’s see an example,
+
+public class AssignmentOperatorDemo 
+{
+   public static void main(String[] args) 
+   {
+      int num;
+      String strName;
+      num = 16;
+      strName = "flowerbrackets";
+      System.out.println(num);
+      System.out.println(strName);
+   }
+}
