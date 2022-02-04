@@ -1,4 +1,5 @@
 # JavaProgramming
+
 Core java and OOPS concept
 
 [continue statement in java](https://www.flowerbrackets.com/continue-statement-java/)
@@ -310,3 +311,5 @@ Core java and OOPS concept
 [Why is string immutable in java](https://www.flowerbrackets.com/why-string-is-immutable-in-java/)
 
 [Delete a directory recursively in java 8](https://www.flowerbrackets.com/delete-a-directory-recursively-in-java-8/)
+
+[Difference between while and do while loop in java](https://www.flowerbrackets.com/difference-between-while-and-do-while-loop-in-java/)
