@@ -315,3 +315,5 @@ Core java and OOPS concept
 [Difference between while and do while loop in java](https://www.flowerbrackets.com/difference-between-while-and-do-while-loop-in-java/)
 
 [Immutable class in java](https://www.flowerbrackets.com/immutable-class-in-java/)
+
+[Wrapper classes in java](https://www.flowerbrackets.com/wrapper-class-in-java/)
