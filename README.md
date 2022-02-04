@@ -317,3 +317,5 @@ Core java and OOPS concept
 [Immutable class in java](https://www.flowerbrackets.com/immutable-class-in-java/)
 
 [Wrapper classes in java](https://www.flowerbrackets.com/wrapper-class-in-java/)
+
+[Random class in java](https://www.flowerbrackets.com/random-class-java/)
