@@ -1,0 +1,22 @@
+Difference between while and do while loop in java
+
+[Difference between while and do while loop in java](https://www.flowerbrackets.com/difference-between-while-and-do-while-loop-in-java/)
+
+Let’s see an example on difference between while and do while in java.
+
+// while loop runs zero times
+int a = 20;
+while(a < 5)  // here condition executes false
+{
+   System.out.println("hello world");
+   a++;
+}
+
+---------------------------------------------------------
+
+// do-while loop
+int a = 20;
+do{
+   System.out.println("hello world");
+   a++;
+}while(a < 5);  // here condition executes false
