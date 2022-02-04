@@ -319,3 +319,5 @@ Core java and OOPS concept
 [Wrapper classes in java](https://www.flowerbrackets.com/wrapper-class-in-java/)
 
 [Random class in java](https://www.flowerbrackets.com/random-class-java/)
+
+[Difference between abstract class and interface in java](https://www.flowerbrackets.com/difference-between-abstract-class-and-interface-in-java/)
