@@ -1,0 +1,26 @@
+Functional interface in java
+
+[Functional interface in java](https://www.flowerbrackets.com/functional-interface-in-java/)
+
+Functional interface is one kind of an interface which has only one abstract method.
+
+Here’s functional interface example.
+
+@FunctionalInterface
+interface HelloWorld
+{
+   void print();
+}
+public class FunctionalInterfaceExample
+{
+   public static void main(String[] args)
+   {
+      HelloWorld obj = () -> System.out.println("Hello World Java");
+      obj.print();
+   }
+}
+
+
+Output:
+
+Hello World Java
