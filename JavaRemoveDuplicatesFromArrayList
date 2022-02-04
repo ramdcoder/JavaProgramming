@@ -1,0 +1,31 @@
+How to remove duplicates from ArrayList in java
+
+[How to remove duplicates from ArrayList in java](https://www.flowerbrackets.com/how-to-remove-duplicates-from-arraylist-in-java/)
+
+import java.util.ArrayList;
+import java.util.Arrays;
+public class DuplicatesFromArraylist
+{
+   public static <T> ArrayList<T> removeDuplicate(ArrayList<T> al)
+   {
+      ArrayList<T> alNew = new ArrayList<T>();
+      for(T element : al)
+      {
+         // if element is present in alNew then add it
+         if(!alNew.contains(element))
+         {
+            alNew.add(element);
+         }
+      }
+      // return alNew
+      return alNew;
+   }
+   public static void main(String[] args)
+   {
+      ArrayList<Integer> al = new ArrayList<>(Arrays.asList(2, 2, 4, 4, 6, 6, 8, 8, 1, 3, 5, 7, 9));
+      System.out.println("Before removing duplicates from ArrayList: " + al);
+      ArrayList<Integer> alNew = removeDuplicate(al);
+      // printing ArrayList with duplicates
+      System.out.println("After removing duplicates from ArrayList: " + alNew);
+   }
+}
