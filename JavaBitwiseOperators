@@ -1,0 +1,23 @@
+Bitwise operators in java
+
+[Bitwise operators in java](https://www.flowerbrackets.com/bitwise-operators-in-java/)
+
+Bitwise operator works on integer data bit by bit individually. These integer data comprises of byte, short, int and long types.
+
+Here are types of bitwise operators,
+
+Bitwise AND (&)
+Bitwise inclusive OR (|)
+Bitwise exclusive OR (^)
+Bitwise Compliment (~)
+
+Let’s see an example on bitwise AND (&) operator.
+
+public class BitwiseAndOperatorExample
+{
+   public static void main(String[] args) 
+   {
+      int a = 7, b = 6;
+      System.out.println("a & b = " + (a & b));
+   }
+}
