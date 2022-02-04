@@ -1,0 +1,28 @@
+Multiple inheritance in java
+
+[Multiple inheritance in java](https://www.flowerbrackets.com/multiple-inheritance-in-java/)
+
+Multiple inheritance is one of the object oriented feature where a class or a sub class can inherit features from more than one parent class or super class.
+
+Let’s see why java does not support multiple inheritance in java with an example.
+
+class X
+{
+   void print()
+   {
+   }
+}
+class Y
+{
+   void print()
+   {
+   }
+}
+class Z extends X, Y
+{
+   public static void main(String[] args)
+   {
+      Z obj = new Z();
+      obj.print()
+   }
+}
