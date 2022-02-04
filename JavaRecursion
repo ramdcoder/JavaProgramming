@@ -1,0 +1,20 @@
+Recursion in java
+
+[Recursion in java](https://www.flowerbrackets.com/recursion-in-java/)
+
+Recursion is a process where a method calls itself infinitely or continuously.
+
+Here’s an example on infinite recursive function.
+
+public class InfiniteRecursiveExample
+{
+   static void print()
+   {  
+      System.out.println("helloworld");  
+      print();  
+   }
+   public static void main(String[] args)
+   {
+      print();
+   }
+}
