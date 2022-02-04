@@ -1,0 +1,22 @@
+Immutable class in java
+
+[Immutable class in java](https://www.flowerbrackets.com/immutable-class-in-java/)
+
+An immutable class means that once the object is created its state or content cannot be modified or changed.
+
+For example: string is immutable in java. Click here to know why. Also all wrapper classes namely Boolean, Byte, Short, Integer, Long,  Float, Double etc are immutable.
+
+Now let’s see immutable class with example or create custom immutable class.
+
+public final class EmployeeDetails
+{  
+   final String aadharNumber;  
+   public EmployeeDetails(String aadharNumber)
+   {
+      this.aadharNumber = aadharNumber;  
+   }  
+   public String getAadharNumber()
+   {
+      return aadharNumber;  
+   }      
+}
