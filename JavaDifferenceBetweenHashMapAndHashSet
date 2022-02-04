@@ -1,0 +1,24 @@
+Difference between HashMap and HashSet in java
+
+[Difference between HashMap and HashSet in java](https://www.flowerbrackets.com/difference-between-hashset-and-hashmap/)
+
+Java HashMap example
+
+import java.util.HashMap;
+public class HashMapExample
+{
+   public static void main(String[] args)
+   {
+      HashMap<Integer, String> hm = new HashMap<Integer, String>();
+      // add elements
+      hm.put(10,"Apple");
+      hm.put(20,"Banana");
+      hm.put(30,"Cherry");
+      hm.put(40,"Dragonfruit");
+      // print HashMap elements
+      System.out.println("HashMap elements: " + hm);
+      // storing data with duplicate key
+      hm.put(20, "Banana");
+      System.out.println("After inserting duplicate key: " + hm);
+   }
+}
