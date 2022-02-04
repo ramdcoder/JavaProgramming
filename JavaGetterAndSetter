@@ -1,0 +1,23 @@
+Getter and Setter in java
+
+[Getter and Setter in java](https://www.flowerbrackets.com/getter-and-setter-in-java/)
+
+Get and set methods are basically used in Encapsulation. Encapsulation means hiding sensitive date from user. 
+To hide sensitive data from user we have to declare class variables as private.
+
+For example:
+
+public class Student
+{
+   private String name;
+   // getter method
+   public String getName()
+   {
+      return name;
+   }
+   // setter method
+   public void setName(String stuName)
+   {
+      this.name = stuName;
+   }
+}
