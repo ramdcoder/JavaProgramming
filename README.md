@@ -313,3 +313,5 @@ Core java and OOPS concept
 [Delete a directory recursively in java 8](https://www.flowerbrackets.com/delete-a-directory-recursively-in-java-8/)
 
 [Difference between while and do while loop in java](https://www.flowerbrackets.com/difference-between-while-and-do-while-loop-in-java/)
+
+[Immutable class in java](https://www.flowerbrackets.com/immutable-class-in-java/)
