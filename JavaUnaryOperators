@@ -1,0 +1,28 @@
+Unary operators in java
+
+[Unary operators in java](https://www.flowerbrackets.com/unary-operators-in-java-with-example/)
+
+Unary operator needs only one operand to increment, decrement, etc. Here are various unary operators,
+
+Logical complement operator (!): reverses logical state or value of operand. If the value is false, it converts value to true and vice versa.
+Unary minus (-): converts positive value to negative value.
+Increment (++): increments value of an integer. post and pre-increment.
+Decrement (- -): decrements value of an integer. post and pre-decrement.
+Unary plus (+): operator represents positive value. That is it makes all bits inverted, every 0 to 1 and every 1 to 0.
+
+Here’s an example on ‘NOT’ (!) operator.
+
+public class JavaUnaryOperator
+{
+   public static void main(String[] args)
+   {
+      boolean bool = true;
+      int a = 14, b = 5;
+      System.out.println("Before using NOT operator(!): " + bool);
+      System.out.println("a = " + a);
+      System.out.println("b = " + b);
+      System.out.println("After using using NOT operator(!): " + !bool);
+      System.out.println("!(a < b) = " + !(a < b));
+      System.out.println("!(a > b) = " + !(a > b));
+   }
+}
