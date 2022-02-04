@@ -329,3 +329,5 @@ Core java and OOPS concept
 [Recursion in java](https://www.flowerbrackets.com/recursion-in-java/)
 
 [Getter and Setter in java](https://www.flowerbrackets.com/getter-and-setter-in-java/)
+
+[How to remove duplicates from ArrayList in java](https://www.flowerbrackets.com/how-to-remove-duplicates-from-arraylist-in-java/)
