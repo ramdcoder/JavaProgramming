@@ -1,0 +1,43 @@
+Relational operators in java
+
+[Relational operators in java](https://www.flowerbrackets.com/relational-operators-in-java/)
+
+Relational operators are used to compare two operands or variables for equality, greater than, less than etc., and return boolean output. There are six relational operators,
+
+Equals to operator (==)
+Less than operator (<)
+Greater than operator (>)
+Not equals to operator (!=)
+Greater than equals to operator (>=)
+Less than equal to operator (<=)
+
+Let’s see an example for equals to (==) relational operator in java.
+
+public class RelationalOperatorExample
+{
+   public static void main(String[] args) 
+   {
+      int a = 7;
+      double d = 262.0001;
+      char c = 'm';
+      // comparing character to character
+      System.out.println(c == c);
+      // comparing character to integer
+      System.out.println(c == a);
+      // comparing ASCII value to integer
+      System.out.println(71 == a);
+      // comparing integer to double
+      System.out.println(a == d);
+      // comparing integer to integer
+      System.out.println(a == a);
+   }
+}
+
+
+Output:
+
+true
+false
+false
+false
+true
