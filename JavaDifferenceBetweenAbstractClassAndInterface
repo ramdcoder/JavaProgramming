@@ -1,0 +1,39 @@
+Difference between abstract class and interface in java
+
+[Difference between abstract class and interface in java](https://www.flowerbrackets.com/difference-between-abstract-class-and-interface-in-java/)
+
+Example on difference between abstract class and interface – where abstract class extends only one class or one abstract class
+
+class A
+{
+   public void print1()
+   {
+      System.out.println("print1 method");
+   }
+}
+abstract class B
+{
+   public void print2()
+   {
+      System.out.println("print2 method");
+   }
+}
+abstract class C extends A
+{
+   abstract void print3();
+}
+class D extends C
+{
+   public void print3()
+   {
+      System.out.println("print3 method");
+   }
+}
+class AbstractClassExample
+{
+   public static void main(String[] args)
+   {
+      D obj = new D();
+      obj.print3();
+   }
+}
