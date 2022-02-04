@@ -1,0 +1,14 @@
+instanceof java
+
+[instanceof java](https://www.flowerbrackets.com/instanceof-java/)
+
+instanceof operator is used to check whether the object is an instance of specified type. Type can be a class or a subclass or an interface.
+
+public class Example
+{
+   public static void main(String[] args)
+   {
+      Example obj = new Example();
+      System.out.println(obj instanceof Example);
+   }
+}
