@@ -1,0 +1,20 @@
+Shift operator in java
+
+[Shift operator in java](https://www.flowerbrackets.com/shift-operator-in-java/)
+
+A shift operator basically used to perform bit manipulation on a number by shifting bits of first operand right/left.
+
+Signed left shift operator or bitwise left shift operator (<<)
+Signed right shift operator or bitwise right shift operator (>>)
+Unsigned right shift operator or bitwise zero fill right shift operator (>>>)
+
+Let’s see java program.
+
+public class LeftShiftOperatorDemo 
+{
+   public static void main(String[] args) 
+   {
+      int b = 9;
+      System.out.println((b << 2));
+   }
+}
