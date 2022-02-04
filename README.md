@@ -347,3 +347,5 @@ Core java and OOPS concept
 [Multiple inheritance in java](https://www.flowerbrackets.com/multiple-inheritance-in-java/)
 
 [Comparable interface in java](https://www.flowerbrackets.com/comparable-interface-in-java/)
+
+[Functional interface in java](https://www.flowerbrackets.com/functional-interface-in-java/)
