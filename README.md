@@ -337,3 +337,5 @@ Core java and OOPS concept
 [Relational operators in java](https://www.flowerbrackets.com/relational-operators-in-java/)
 
 [Bitwise operators in java](https://www.flowerbrackets.com/bitwise-operators-in-java/)
+
+[Logical operators in java](https://www.flowerbrackets.com/logical-operators-in-java/)
