@@ -1,0 +1,52 @@
+Comparable interface in java
+
+[Comparable interface in java](https://www.flowerbrackets.com/comparable-interface-in-java/)
+
+Comparable interface is an interface used to compare objects of same type. It can be implemented by any custom class and is found in java.lang package.
+
+Let’s see java comparable example(natural ordering).
+
+class Employee implements Comparable<Employee>
+{
+   int empID;
+   String empName;
+   int empAge;
+   Employee(int empID, String empName, int empAge)
+   {
+      this.empID = empID;
+      this.empName = empName;
+      this.empAge = empAge;
+   }
+   public int compareTo(Employee emp)
+   {
+      if(empAge == emp.empAge)
+      {
+         return 0;
+      }
+      else if(empAge > emp.empAge)
+      {
+         return 1;
+      }
+      else
+      {
+         return -1;
+      }
+   }
+}
+import java.util.ArrayList;
+import java.util.Collections;
+public class ComparableExample
+{
+   public static void main(String[] args)
+   {
+      ArrayList<Employee> al = new ArrayList<Employee>();
+      al.add(new Employee(7056,"virat", 25));  
+      al.add(new Employee(7158,"amit", 28));  
+      al.add(new Employee(7263,"jay", 20));     
+      Collections.sort(al);
+      for(Employee obj : al)
+      {  
+         System.out.println(obj.empID + " " + obj.empName + " " + obj.empAge);
+      }
+   }
+}
