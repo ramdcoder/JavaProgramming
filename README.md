@@ -333,3 +333,5 @@ Core java and OOPS concept
 [How to remove duplicates from ArrayList in java](https://www.flowerbrackets.com/how-to-remove-duplicates-from-arraylist-in-java/)
 
 [Assignment operators in java](https://www.flowerbrackets.com/assignment-operators-in-java/)
+
+[Relational operators in java](https://www.flowerbrackets.com/relational-operators-in-java/)
