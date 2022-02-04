@@ -1,0 +1,38 @@
+Wrapper classes in java
+
+[Wrapper classes in java](https://www.flowerbrackets.com/wrapper-class-in-java/)
+
+Wrapper classes provides a way to convert primitive data types into object and vice-versa.
+
+For example:
+
+int a = 7; // using primitive datatype
+
+Integer a = new Integer(7); // using wrapper class
+
+Let’s see wrapper class in java with example.
+
+public class WrapperClassExample
+{
+   public static void main(String[] args)
+   {
+      // before java 5 version
+      int num = 70;
+      // we were converting explicitly like this
+      Integer i = Integer.valueOf(num);
+      // printing Integer object value explicitly
+      System.out.println(i);
+
+      // in java 5 version
+      // Autoboxing and unboxing feature was introduced
+      // now there is no need of explicit conversion
+      Integer i1 = num;
+      System.out.println(i1);
+   }
+}
+
+
+Output:
+
+70
+70
